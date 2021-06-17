@@ -57,7 +57,7 @@ xsltproc pretext/xsl/pretext-html.xsl single-variable/index.xml
 We'll also need to use two options from the `xsltproc` software that go before the two arguments:
 
 - `-xinclude`: lets us reference other files from the `index.xml` file to _include_ in the generated HTML
-- `-o ./single-variable/public/`: define an output directory for our generated HTML files to be saved to after the transformation. 
+- `-o ./single-variable/public/`: define an output directory for our generated HTML files to be saved to after the transformation. This directory needs to exist for the command to work. If it doesn't exist, run `mkdir single-variable/public` first.
 
 Here's the full command for building the _Single-variable Calculus_ book:
 
