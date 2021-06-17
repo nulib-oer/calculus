@@ -44,6 +44,27 @@ The book's compiliation is managed in the `index.xml` file. Any new chapters nee
 
 Save your edits in your text editor as you would normally (e.g. Control + S).
 
+## Generate HTML from PreTeXt source
+
+The `xsltproc` command requires two arguments to generate HTML from PreTeXt/XMl source. The first argument is a relative path to an `.xsl` file in the `pretext/` folder that manages the transformation from XML to HTML, and the second argument is the XML file you'd like to transform. 
+
+Since we're making a book, we're beginning with an `index.xml` that defines the book's container and references many files to _include_ during the HTML processing. This is the file we want to use as our second argument.
+
+```
+xsltproc pretext/xsl/pretext-html.xsl single-variable/index.xml
+```
+
+We'll also need to use two options from the `xsltproc` software that go before the two arguments:
+
+- `-xinclude`: lets us reference other files from the `index.xml` file to _include_ in the generated HTML
+- `-o ./single-variable/public/`: define an output directory for our generated HTML files to be saved to after the transformation. 
+
+Here's the full command for building the _Single-variable Calculus_ book:
+
+```
+xsltproc -xinclude -o ./single-variable/public/ pretext/xsl/pretext-html.xsl single-variable/quickstart.xml
+```
+
 ## Contribute Edits Back to the Project
 
 Git will notice when new files are added, or existing files are edited or deleted. These edits need to be formally added to the Git's version history. 
