@@ -1,0 +1,6 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="c_id">
+  <title>Chapter Title</title>
+  <xi:include  href="section.ptx"/>
+  <xi:include  href="section.ptx"/>
+  <xi:include  href="section.ptx"/>
+</chapter>

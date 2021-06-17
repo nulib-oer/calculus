@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+    <xi:include href="./bookinfo.xml" />
+    <docinfo>
+        <macros>
+        <!-- insert LaTeX macros
+            <xi:include href="./macros.ptx" /> 
+        -->
+        </macros>
+        <latex-image-preamble>
+        <!-- insert image premable (e.g. tikz packages)
+            <xi:include href="./latex-image-preamble.ptx" />
+        -->
+        </latex-image-preamble>
+    </docinfo>
+    <book>
+        <title>Single-variable Calculus</title>
+        <frontmatter>
+            <titlepage>
+                <author>
+                    <personname>Aaron Greicius</personname>
+                </author>
+                <author>
+                    <personname>Sean McAfee</personname>
+                </author>
+            </titlepage>
+        </frontmatter>
+        <part>
+            <title>Differential</title>
+            <!-- list of chapters
+                <xi:include href="./differential/chapter_file_name.ptx"/>
+            -->
+        </part>
+        <part>
+            <title>Integral</title>
+            <!-- list of chapters
+                <xi:include href="./integral/chapter_file_name.ptx"/>
+            -->
+        </part>
+        <backmatter>
+            <appendix xml:id="appendix-defs">
+                <title>Definitions</title>
+                <list-of elements="definition" divisions="section" />
+            </appendix>
+            <appendix xml:id="appendix-thms">
+                <title>Theorems</title>
+                <list-of elements="theorem" divisions="section" />
+            </appendix>
+            <appendix xml:id="appendix-egs">
+                <title>Examples</title>
+                <list-of elements="example" divisions="section" />
+            </appendix>
+            <!--
+            <xi:include href="./bibliography.ptx"/>
+            -->
+            <index>
+                <title>Index</title>
+                <index-list />
+            </index>
+        </backmatter>
+    </book>
+</pretext>

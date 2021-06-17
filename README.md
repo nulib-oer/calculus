@@ -1,8 +1,8 @@
-# OER Calculus Project
+# Calculus OER Project
 
 **By Aaron Greicius and Sean McAfee**
 
-This repository contains the source files for OER calculus texts. The source files are written for processing by [PreTeXt](https://pretextbook.org/). PreTeXt is included in this repository as a [git submodule](https://www.atlassian.com/git/tutorials/git-submodule). 
+This repository contains the source files for an OER textbook on Single-variable calculus. The source files are written for processing by [PreTeXt](https://pretextbook.org/). PreTeXt is included in this repository as a [git submodule](https://www.atlassian.com/git/tutorials/git-submodule). 
 
 ## Getting Started
 
@@ -13,8 +13,14 @@ PreTeXt provides [documentation](https://pretextbook.org/documentation.html) on 
 - a LaTeX distribution (e.g. [TeX Live](https://www.tug.org/texlive/), [MacTeX](https://www.tug.org/mactex/), [MikTex](https://miktex.org/), [TinyTeX](https://yihui.org/tinytex/))
 - and an [XSLT processor](http://www.xmlsoft.org/xslt/xsltproc.html).
 
-Copy this repository to your computer:
+Download this repository to your computer from the command-line:
 
-```
+```sh
 git clone https://github.com/nulib-oer/calculus.git
+```
+
+Generate HTML for single-variable calculus:
+
+```sh
+xsltproc -xinclude pretext/xsl/pretext-html.xsl single-variable/index.xml
 ```
