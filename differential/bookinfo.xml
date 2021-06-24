@@ -1,0 +1,48 @@
+<bookinfo>
+    <!--
+    <isbn>978-0-xxxxxxx-x-x</isbn>
+    
+    <version>0.1</version>
+    
+    <title>Single-variable Calculus</title>
+    
+    <author>
+        <name>Aaron Greicius</name>
+        <affiliation>Northwestern University</affiliation>
+        <url></url>
+    </author>
+
+    <author>
+        <name>Sean McAfee</name>
+        <affiliation>Northwestern University</affiliation>
+        <url></url>
+    </author>
+
+    <dedication></dedication>
+
+    <copyright>2021<mdash />2023</copyright>
+
+    <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the Creative Commons Attribution-Noncommerical-ShareAlike (CC BY-NC-SA) 4.0 International License</shortlicense>
+
+    <publisher>Northwestern University Libraries<br />
+    Evanston, Illinois, USA
+    </publisher>
+
+    <authorbiography>
+
+    </authorbiography>
+
+    <contributorinfo codename="x">
+        <firstname></firstname>
+        <lastname></lastname>
+        <location></location>
+        <econtact></econtact>
+    </contributorinfo>
+
+    <acknowledgements>
+    </acknowledgements>
+    
+    <license>
+    </license>
+    -->
+</bookinfo>

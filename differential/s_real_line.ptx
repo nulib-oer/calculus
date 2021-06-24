@@ -1,0 +1,36 @@
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="s_real_line">
+<introduction>
+
+</introduction>
+<definition xml:id="d_abs_value">
+  <title>Absolute value</title>
+
+  <statement>
+    <p>
+
+    </p>
+  </statement>
+</definition>
+<definition xml:id="d_distance_1d">
+  <statement>
+    <p>
+      <xref ref="d_"/>
+    </p>
+  </statement>
+</definition>
+<definition xml:id="d_open_set">
+  <title>Open set</title>
+  <statement>
+    <p>
+
+    </p>
+  </statement>
+</definition>
+<definition xml:id="d_closed_set">
+  <statement>
+    <p>
+
+    </p>
+  </statement>
+</definition>
+</section>

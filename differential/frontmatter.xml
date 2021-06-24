@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<frontmatter xml:id="front-matter" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <titlepage>
+        <author>
+            <personname>Aaron Greicius</personname>
+            <department>Department of Mathematics</department>
+            <institution>Northwestern University</institution>
+            <email></email>
+            <!-- personal URL not implemented -->
+            <url></url>
+        </author>
+        <author>
+            <personname>Sean McAfee</personname>
+            <department>Department of Mathematics</department>
+            <institution>Northwestern University</institution>
+            <email></email>
+            <!-- personal URL not implemented -->
+            <url></url>
+        </author>
+        <date></date>
+    </titlepage>
+
+    <colophon>
+        <edition>0.1</edition>
+
+        <copyright>
+            <year>2021<ndash />2023</year>
+            <holder>Aaron Greicius</holder>
+            <holder>Sean McAfee</holder>
+            <minilicense>CC BY-NC-SA</minilicense>
+            <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the Creative Commons Attribution-Noncommerical-ShareAlike (CC BY-NC-SA) 4.0 International License</shortlicense>
+        </copyright>
+    </colophon>
+
+    <!-- Accepted order: biography, dedication, acknowledgements, forewords, prefaces -->
+
+    <!-- biography migrates to obverse of cover page in LaTeX -->
+    <!-- biography is a subdivision of frontmatter in HTML books -->
+    <biography>
+        
+    </biography>
+
+    <!-- each paragraph gets centered in slight more prominent font -->
+    <dedication>
+    </dedication>
+
+    <acknowledgement>
+        
+    </acknowledgement>
+
+    <preface>
+        <title></title>
+
+        <p></p>
+
+        <p></p>
+
+        <contributors>
+            <contributor xml:id="x">
+                <personname></personname>
+                <institution></institution>
+            </contributor>
+        </contributors>
+    </preface>
+
+    <preface>
+        
+        <paragraphs>
+            <p></p>
+        </paragraphs>
+
+        <attribution>
+            <line>Name</line>
+        </attribution>
+
+    </preface>
+</frontmatter>
