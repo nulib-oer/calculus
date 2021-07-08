@@ -21,6 +21,7 @@
   <title> Distance between two real numbers </title>
   <statement>
     <p>
+<<<<<<< HEAD
     For two real numbers $x$ and $y$, we write $\operatorname{d}(x,y)$ to mean the \textbf{distance} between $x$ and $y$. This is the real number defined by
     $$
     \operatorname{d}(x,y)=|x-y|.
@@ -29,6 +30,13 @@
   </statement>
 </definition>
 
+=======
+      <me>
+        \lvert x\rvert=\begin{cases} x \amp \text{if } x\geq 0\\
+                            -x \amp \text{if } x<0
+                            \end{cases}
+      </me>.
+>>>>>>> f2ea47e194be7ac9baeef88f499c96e6bb1afe99
 
 <definition xml:id="interval">
   <title> Intervals of real numbers </title>
@@ -38,6 +46,7 @@
     </p>
   </statement>
 </definition>
+<<<<<<< HEAD
 
 
 <definition xml:id="open_interval">
@@ -48,6 +57,14 @@
     $$
     (a,b)=\left\{ c \mid| a<c<b \right\}.
     $$
+=======
+<definition xml:id="d_distance_1d">
+  <title></title>
+
+  <statement>
+    <p>
+      <m>d(x,y)=\lvert x-y\rvert</m>
+>>>>>>> f2ea47e194be7ac9baeef88f499c96e6bb1afe99
     </p>
   </statement>
 </definition>
@@ -102,6 +119,14 @@
     </p>
   </statement>
 </definition>
+<definition xml:id="d_interval">
+  <statement>
+    <p>
+
+    </p>
+  </statement>
+</definition>
+
 </section>
 
 
