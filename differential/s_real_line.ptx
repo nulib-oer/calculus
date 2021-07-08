@@ -7,14 +7,21 @@
 
   <statement>
     <p>
+      <me>
+        \lvert x\rvert=\begin{cases} x \amp \text{if } x\geq 0\\
+                            -x \amp \text{if } x<0
+                            \end{cases}
+      </me>.
 
     </p>
   </statement>
 </definition>
 <definition xml:id="d_distance_1d">
+  <title></title>
+
   <statement>
     <p>
-      <xref ref="d_"/>
+      <m>d(x,y)=\lvert x-y\rvert</m>
     </p>
   </statement>
 </definition>
@@ -33,4 +40,12 @@
     </p>
   </statement>
 </definition>
+<definition xml:id="d_interval">
+  <statement>
+    <p>
+
+    </p>
+  </statement>
+</definition>
+
 </section>
