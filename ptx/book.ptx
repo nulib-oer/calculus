@@ -4,7 +4,7 @@
     <docinfo>
         <macros>
         <!-- insert LaTeX macros
-            <xi:include href="./macros.ptx" /> 
+            <xi:include href="./macros.ptx" />
         -->
         </macros>
         <latex-image-preamble>
@@ -27,9 +27,8 @@
         </frontmatter>
         <part>
             <title>Differential</title>
-            <!-- list of chapters
-                <xi:include href="./differential/chapter_file_name.ptx"/>
-            -->
+                <xi:include href="../differential/c_limits.ptx"/>
+
         </part>
         <part>
             <title>Integral</title>

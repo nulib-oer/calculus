@@ -4,3 +4,5 @@
 **/public
 **/knowl
 **/*.html
+Makefile.paths
+output/
