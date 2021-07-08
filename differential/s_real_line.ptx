@@ -2,35 +2,124 @@
 <introduction>
 
 </introduction>
+
+
 <definition xml:id="d_abs_value">
   <title>Absolute value</title>
-
   <statement>
     <p>
-
+    For a given real number $x$, we write $|x|$ to mean the \textbf{absolute value of } $x$. This is the real number defined by
+    $$
+    |x|=\begin{cases} x \amp \text{ if } x \geq 0 \\ -x \amp \text{ if } x<0 \end{cases}
+    $$.
     </p>
   </statement>
 </definition>
+
+
 <definition xml:id="d_distance_1d">
+  <title> Distance between two real numbers </title>
   <statement>
     <p>
-      <xref ref="d_"/>
+    For two real numbers $x$ and $y$, we write $\operatorname{d}(x,y)$ to mean the \textbf{distance} between $x$ and $y$. This is the real number defined by
+    $$
+    \operatorname{d}(x,y)=|x-y|.
+    $$
     </p>
   </statement>
 </definition>
+
+
+<definition xml:id="interval">
+  <title> Intervals of real numbers </title>
+  <statement>
+    <p>
+    An \textbf{interval} is a set of real numbers such that, for any two numbers $a,b$ in the set with $a<b$, every number $c$ with $a<c<b$ is also in the set.
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="open_interval">
+  <title> Open intervals of real numbers </title>
+  <statement>
+    <p>
+    For any two real numbers $a,b$ with $a<b$, the set of all real numbers $c$ such that $a<c<b$ is called an \textbf{open interval}, and is written $(a,b)$. That is,
+    $$
+    (a,b)=\left\{ c \mid| a<c<b \right\}.
+    $$
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="closed_interval">
+  <title> Closed intervals of real numbers </title>
+  <statement>
+    <p>
+    For any two real numbers $a,b$ with $a<b$, the set of all real numbers $c$ such that $a\leq c \leq b$ is called a \textbf{closed interval}, and is written $[a,b]$. That is,
+    $$
+    [a,b]=\left\{ c \mid| a\leq c \leq b \right\}.
+    $$
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="midpoint">
+  <title> Midpoint of an interval </title>
+  <statement>
+    <p>
+    Given an interval $(a,b)$ or $[a,b]$, the \textbf{midpoint} of the interval is the real number $c$ such that
+    $$
+    \operatorname{d}(a,c)=\operatorname{d}(c,b).
+    $$
+    This number is given by the formula
+    $$
+    c=\frac{a+b}{2}.
+    $$
+    </p>
+  </statement>
+</definition>
+
+
+
 <definition xml:id="d_open_set">
-  <title>Open set</title>
+  <title>Open sets of real numbers </title>
   <statement>
     <p>
-
+    A set $S$ of real numbers is called \textbf{open} if, for every $x \in S$, there is an open interval $(a,b)$ containing $x$ such that $(a,b)$ is a subset of $S$.
     </p>
   </statement>
 </definition>
+
+
 <definition xml:id="d_closed_set">
+  <title> Closed sets of real numbers </title>
   <statement>
     <p>
-
+    A set $S$ of real numbers is called \textbf{closed} if $S$ is the complement of an open set.
     </p>
   </statement>
 </definition>
 </section>
+
+
+<definition xml:id="rational">
+  <title>Rational numbers </title>
+  <statement>
+    <p>
+    A real number $x$ is called \textbf{rational} if $x$ can be written as $x=\frac{a}{b}$, where $a$ and $b$ are integers, with $b \neq 0$.
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="irrational">
+  <title>Irrational numbers </title>
+  <statement>
+    <p>
+    A real number $x$ is called \textbf{irrational} if $x$ is not rational. That is, $x$ is irrational if it cannot be written as $x=\frac{a}{b}$, where $a$ and $b$ are integers, with $b \neq 0$.
+    </p>
+  </statement>
+</definition>
