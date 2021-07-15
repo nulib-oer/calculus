@@ -30,18 +30,19 @@
                 <xi:include href="../differential/c_limits.ptx"/>
 
         </part>
-        <part>
+
+        <!-- <part>
             <title>Integral</title>
-            <!-- list of chapters
                 <xi:include href="./integral/chapter_file_name.ptx"/>
-            -->
-        </part>
+
+        </part> -->
+
         <backmatter>
-            <appendix xml:id="appendix-defs">
+            <!-- <appendix xml:id="appendix-defs">
                 <title>Definitions</title>
                 <list-of elements="definition" divisions="section" />
-            </appendix>
-            <appendix xml:id="appendix-thms">
+            </appendix> -->
+            <!-- <appendix xml:id="appendix-thms">
                 <title>Theorems</title>
                 <list-of elements="theorem" divisions="section" />
             </appendix>
@@ -49,13 +50,14 @@
                 <title>Examples</title>
                 <list-of elements="example" divisions="section" />
             </appendix>
-            <!--
+
             <xi:include href="./bibliography.ptx"/>
-            -->
+
             <index>
                 <title>Index</title>
                 <index-list />
-            </index>
+            </index> -->
         </backmatter>
+
     </book>
 </pretext>

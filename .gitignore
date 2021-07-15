@@ -6,3 +6,4 @@
 **/*.html
 Makefile.paths
 output/
+BuildsLocal/
