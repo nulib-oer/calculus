@@ -1,0 +1,111 @@
+<section xml:id="s_sets">
+  <title>Sets and logic</title>
+
+  <definition xml:id="d_sets_sets">
+    <title>Sets</title>
+    <statement>
+      <p>
+      A <term>set</term> is a collection of objects.
+      </p>
+      <p>
+      An element <m>x</m> is a  <term>member</term> of a set <m>A</m> if <m>A</m> contains <m>x</m>. In this case, we write <m>x \in A</m>. If <m>x</m> is not a member of <m>A</m>, we write <m>x \notin A</m>.
+      </p>
+    </statement>
+  </definition>
+
+
+  <definition xml:id="d_sets_set_equality">
+    <title>Set equality</title>
+    <idx><h>set</h><h>equality</h></idx>
+    <statement>
+      <p>
+      Sets <m>A</m> and <m>B</m> are <term>equal</term>, denoted <m>A=B</m>, if for any object <m>x</m>, we have <m>x \in A</m> if and only if <m>x \in B</m>.
+      </p>
+    </statement>
+  </definition>
+
+
+  <definition xml:id="d_sets_set_inclusion">
+    <title>Subsets</title>
+    <idx><h>set</h><h>subset</h></idx>
+    <statement>
+      <p>
+      A set <m>A</m> is a <term>subset</term> of a set <m>B</m>, denoted <m>A \subseteq B</m>, if every member of <m>A</m> is a member of <m>B</m>: <ie />,if <m>x \in A </m>, then <m>x \in B</m>.
+      </p>
+    </statement>
+  </definition>
+
+
+  <definition xml:id="d_sets_union_intersection">
+    <title>Union and intersection of sets</title>
+    <idx><h>set</h><h>union</h></idx>
+    <idx><h>set</h><h>intersection</h></idx>
+    <statement>
+      <p>
+      Let <m>A</m> and <m>B</m> be sets.
+      </p>
+      <p>
+      The <term>union of <m>A</m> and <m>B</m></term>, denoted <m>A \cup B</m>, is the set consisting of all elements of <m>A</m> and <m>B</m>: <ie />, <m>x \in A\cup B</m> if and only if <m>x \in A</m> or <m>x \in B</m>.
+      </p>
+      <p>
+      The <term>intersection of <m>A</m> and <m>B</m></term>, denoted <m>A \cap B</m>, is the set consisting of all elements which are in both <m>A</m> and <m>B</m>: <ie />, <m>x \in A \cap B</m> if and only if <m>x \in A</m> and <m>x \in B</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="d_sets_set_complement">
+    <title>Set complement</title>
+    <idx><h>set</h><h>complement</h></idx>
+    <statement>
+      <p>
+      Let <m>A</m> and <m>B</m> be sets. The <term>complement of <m>B</m> in <m>A</m></term>, denoted <m>A-B</m>, is the set of elements of <m>A</m> that are not members of <m>B</m>:<ie />,
+      <me>
+        A-B=\{x\in A\colon x\notin B\}
+      </me>.
+
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="d_sets_set_builder_notation">
+    <title>Set builder notation</title>
+    <statement>
+      <p>
+      Let <m>A</m> be a set. For a property <m>P</m> and an element <m>x</m>, we let <m>P(x)</m> denote the statement that <m>x</m> satisfies <m>P</m>.  The set of all elements of <m>A</m> satisfying <m>P</m> is denoted
+      <me>
+        \{x \in A \colon P(x) \}
+      </me>.
+      </p>
+    </statement>
+  </definition>
+      <remark xml:id="rm_set_builder">
+    <statement>
+      <p>
+        Set builder notation <c><m>\{x \in A\colon P(x)\}</m></c> is parsed from left to right as follows:
+        <ul>
+          <li>
+            <p>
+              <c><m>\{</m></c> is read as <q>the set of</q>
+            </p>
+          </li>
+            <li>
+              <p>
+                <c><m>x\in A</m></c> is read as <q>elements of <m>A</m></q>
+              </p>
+            </li>
+            <li>
+              <p>
+                <c>\colon</c> is read as <q>such that</q>
+              </p>
+            </li>
+            <li>
+              <p>
+                <c><m>P(x)</m></c> is read as <q><m>P(x)</m> is true </q>.
+              </p>
+            </li>
+        </ul>
+        Taken altogether we get: <q>The set of elements of <m>A</m> such that <m>P(x)</m> is true</q>.
+      </p>
+    </statement>
+  </remark>
+</section>
