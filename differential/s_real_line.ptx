@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="s_real_line" >
-  <title>Sets and the real line</title>
-=======
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="s_real_line">
 <introduction>
-
+Sean McAfee
 </introduction>
 
 
@@ -74,7 +70,6 @@
   </statement>
 </definition>
 
->>>>>>> e953e8d7ee308c13e28e5e4815b95d29f96a5708
 
 <definition xml:id="d_real_line_abs_val">
   <title>Absolute value</title>
