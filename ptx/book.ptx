@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
-    <xi:include href="./bookinfo.xml" />
+    <!-- <xi:include href="./bookinfo.xml" /> -->
     <docinfo>
         <macros>
         <!-- insert LaTeX macros
@@ -27,21 +27,23 @@
         </frontmatter>
         <part>
             <title>Differential</title>
-                <xi:include href="../differential/c_limits.ptx"/>
+                <xi:include href="./differential/c_sets_logic_reals.ptx"/>
+                <xi:include href="./differential/c_limits.ptx"/>
 
         </part>
-        <part>
+
+        <!-- <part>
             <title>Integral</title>
-            <!-- list of chapters
                 <xi:include href="./integral/chapter_file_name.ptx"/>
-            -->
-        </part>
+
+        </part> -->
+
         <backmatter>
             <appendix xml:id="appendix-defs">
                 <title>Definitions</title>
                 <list-of elements="definition" divisions="section" />
             </appendix>
-            <appendix xml:id="appendix-thms">
+            <!-- <appendix xml:id="appendix-thms">
                 <title>Theorems</title>
                 <list-of elements="theorem" divisions="section" />
             </appendix>
@@ -49,13 +51,14 @@
                 <title>Examples</title>
                 <list-of elements="example" divisions="section" />
             </appendix>
-            <!--
+
             <xi:include href="./bibliography.ptx"/>
-            -->
+
             <index>
                 <title>Index</title>
                 <index-list />
-            </index>
+            </index> -->
         </backmatter>
+
     </book>
 </pretext>
