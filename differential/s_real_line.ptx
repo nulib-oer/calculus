@@ -4,18 +4,7 @@
 </introduction>
 
 
-<definition xml:id="d_abs_value">
-  <title>Absolute value</title>
-  <statement>
-    <p>
 
-    For a given real number <m>x</m>, we write <m>\lvert x\rvert</m> to mean the <term>absolute value of</term> $x$. This is the real number defined by
-    $$
-    |x|=\begin{cases} x \amp \text{ if } x \geq 0 \\ -x \amp \text{ if } x<0 \end{cases}
-    $$.
-    </p>
-  </statement>
-</definition>
 <definition xml:id="d_real_line_abs_val">
   <title>Absolute value</title>
   <idx><h>absolute value</h></idx>
@@ -36,6 +25,7 @@
   </statement>
 </definition>
 
+
 <definition xml:id="d_real_line_distance">
   <title> Distance function </title>
   <idx><h>distance function</h></idx>
@@ -45,7 +35,7 @@
   </notation>
   <statement>
     <p>
-    The <term>distance</term> between real numbers <m>x</m> and <m>y</m>, denoted <m>d(x,y)</m>, is defined as follows:
+    Let <m>x</m> and <m>y</m> be real numbers. The <term>distance between <m>x</m> and <m>y</m></term>, denoted <m>d(x,y)</m>, is defined as follows:
     <me>
       d(x,y)=\lvert x-y \rvert
     </me>.
@@ -54,105 +44,104 @@
 </definition>
 
 
-
 <definition xml:id="d_real_line_interval">
   <title> Intervals</title>
   <statement>
     <p>
-    A subset <m>I</m> of <m>\mathbb{R}</m> is an <term>interval</term> if whenever <m>I</m> contains real numbers <m>a, b</m>, it contains all numbers between <m>a</m> and <m>b</m>. More precisely: given <m>a, b\in I</m> with <m>a \lt; b</m>, if <m>a\lt; c\lt; b</m>, then <m>c\in I</m>.
+    A subset <m>I</m> of <m>\mathbb{R}</m> is called an <term>interval</term> if whenever <m>I</m> contains real numbers <m>a, b</m>, it contains all numbers between <m>a</m> and <m>b</m>. More precisely: given <m>a, b\in I</m> with <m>a \lt; b</m>, if <m>a\lt; c\lt; b</m>, then <m>c\in I</m>.
   </p>
   </statement>
 </definition>
 
 
-<definition xml:id="open_interval">
+<definition xml:id="d_real_line_open_interval">
   <title> Open intervals</title>
+  <idx><h>open interval</h></idx>
+  <notation>
+    <usage>(a,b)</usage>
+    <description>the open interval from <m>a</m> to <m>b</m></description>
+  </notation>
   <statement>
     <p>
-    Let <m>a, b </m> be real numbers with <m>a<b</m>. The <term>open interval from <m>a</m> to <m>b</m></term>, denoted <m>(a,b)</m>,  is the set
+    Let <m>a, b </m> be real numbers with <m>a \lt; b</m>. The <term>open interval from <m>a</m> to <m>b</m></term>, denoted <m>(a,b)</m>,  is the set
     <me>
       (a,b)=\{ c\in\mathbb{R}\mid a\lt; c\lt; b\}
     </me>.
-  </p>
-  </statement>
-</definition>
-
-
-<definition xml:id="closed_interval">
-  <title> Closed intervals of real numbers </title>
-  <statement>
-    <p>
-    For any two real numbers $a,b$ with $a<b$, the set of all real numbers $c$ such that $a\leq c \leq b$ is called a \textbf{closed interval}, and is written $[a,b]$. That is,
-    $$
-    [a,b]=\left\{ c \mid| a\leq c \leq b \right\}.
-    $$
     </p>
   </statement>
 </definition>
 
 
-<definition xml:id="midpoint">
+<definition xml:id="d_real_line_closed_interval">
+  <title> Closed intervals of real numbers </title>
+  <idx><h>closed interval</h></idx>
+  <notation>
+    <usage>[a,b]</usage>
+    <description>the closed interval from <m>a</m> to <m>b</m></description>
+  </notation>
+  <statement>
+    <p>
+    Let <m>a,b</m> be real numbers with <m>a \lt; b</m>. The <term>closed interval from <m>a</m> to <m>b </m></term>, denoted  <m>[a,b]</m>, is the set
+    <me>
+      [a,b]=\{ c\in\mathbb{R}\mid a\leq c \leq b \}
+    </me>.
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="d_real_line_midpoint">
   <title> Midpoint of an interval </title>
   <statement>
     <p>
-    Given an interval $(a,b)$ or $[a,b]$, the \textbf{midpoint} of the interval is the real number $c$ such that
-    $$
+    Given an interval <m>(a,b)</m> or <m>[a,b]</m>, the <term>midpoint</term>  of the interval is the unique real number <m>c</m> such that
+    <me>
     \operatorname{d}(a,c)=\operatorname{d}(c,b).
-    $$
+    </me>
     This number is given by the formula
-    $$
-    c=\frac{a+b}{2}.
-    $$
+    <me>
+    c=\frac{a+b}{2}
+    </me>.
     </p>
   </statement>
 </definition>
 
 
-
-<definition xml:id="d_open_set">
+<definition xml:id="d_real_line_open_set">
   <title>Open sets of real numbers </title>
   <statement>
     <p>
-    A set $S$ of real numbers is called \textbf{open} if, for every $x \in S$, there is an open interval $(a,b)$ containing $x$ such that $(a,b)$ is a subset of $S$.
+    A set <m>S</m> of real numbers is called <term>open</term> if, for every <m>x \in S</m>, there is an open interval <m>(a,b)</m> containing <m>x</m> such that <m>(a,b)</m> is a subset of <m>S</m>.
     </p>
   </statement>
 </definition>
 
 
-<definition xml:id="d_closed_set">
+<definition xml:id="d_real_line_closed_set">
   <title> Closed sets of real numbers </title>
   <statement>
     <p>
-    A set $S$ of real numbers is called \textbf{closed} if $S$ is the complement of an open set.
-    </p>
-  </statement>
-</definition>
-<definition xml:id="d_interval">
-  <statement>
-    <p>
-
+    A set <m>S</m> of real numbers is called <term>closed</term> if <m>S</m> is the complement of an open set.
     </p>
   </statement>
 </definition>
 
-</section>
 
-
-<definition xml:id="rational">
+<definition xml:id="d_real_line_rational">
   <title>Rational numbers </title>
   <statement>
     <p>
-    A real number $x$ is called \textbf{rational} if $x$ can be written as $x=\frac{a}{b}$, where $a$ and $b$ are integers, with $b \neq 0$.
+    A real number <m>x</m> is called <term>rational</term> if <m>x</m> can be written as <m>x=\frac{a}{b}</m>, where <m>a</m> and <m>b</m> are integers, and <m>b\neq 0</m>.
     </p>
   </statement>
 </definition>
 
 
-<definition xml:id="irrational">
+<definition xml:id="d_real_line_irrational">
   <title>Irrational numbers </title>
   <statement>
     <p>
-    A real number $x$ is called \textbf{irrational} if $x$ is not rational. That is, $x$ is irrational if it cannot be written as $x=\frac{a}{b}$, where $a$ and $b$ are integers, with $b \neq 0$.
+    A real number <m>x</m> is called <term>irrational</term> if <m>x</m> is not rational. That is, <m>x</m> is irrational if it cannot be written as <m>x=\frac{a}{b}</m>, where <m>a</m> and <m>b</m> are integers, and with <m>b\neq 0</m>.
     </p>
   </statement>
 </definition>
