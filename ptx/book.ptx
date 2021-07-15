@@ -39,10 +39,10 @@
         </part> -->
 
         <backmatter>
-            <!-- <appendix xml:id="appendix-defs">
+            <appendix xml:id="appendix-defs">
                 <title>Definitions</title>
                 <list-of elements="definition" divisions="section" />
-            </appendix> -->
+            </appendix>
             <!-- <appendix xml:id="appendix-thms">
                 <title>Theorems</title>
                 <list-of elements="theorem" divisions="section" />

@@ -105,7 +105,6 @@ html:
 	cp -a $(WWOUT)/*.png $(HTMLOUT)/images || :
 	cp -a $(WWOUT)/*.svg $(HTMLOUT)/images || :
 	cd $(HTMLOUT); \
-	# xsltproc --xinclude --stringparam publisher $(PUBFILE) --stringparam exercise.inline.hint yes --stringparam exercise.inline.answer yes --stringparam exercise.inline.solution yes --stringparam exercise.divisional.hint yes --stringparam exercise.divisional.answer yes --stringparam exercise.divisional.solution yes --stringparam webwork.divisional.static no $(PTXXSL)/pretext-html.xsl $(MAINFILE); \
 	xsltproc --xinclude $(PTXXSL)/pretext-html.xsl $(MAINFILE); \
 
 images:
@@ -138,9 +137,9 @@ pdf:
 	cp -a $(VIDEOOUT)/*.jpg $(PRINTOUT)/images || :
 	cp -a $(SAGEPLOT)/*.pdf $(PRINTOUT)/images || :
 	cd $(PRINTOUT); \
-	xsltproc -xinclude --stringparam publisher $(PUBFILE) --stringparam latex.print 'yes' --stringparam latex.pageref 'no' --stringparam latex.sides 'two' --stringparam exercise.divisional.answer no --stringparam exercise.divisional.solution no --stringparam exercise.divisional.hint no $(PTXXSL)/pretext-latex.xsl $(MAINFILE) > apex.tex; \
-	xelatex apex.tex; \
-	xelatex apex.tex; \
+	xsltproc -xinclude  --stringparam latex.print 'yes' --stringparam latex.pageref 'no' --stringparam latex.sides 'two' --stringparam exercise.divisional.answer no --stringparam exercise.divisional.solution no --stringparam exercise.divisional.hint no $(PTXXSL)/pretext-latex.xsl $(MAINFILE) > book.tex; \
+	xelatex book.tex; \
+	xelatex book.tex; \
 
 
 ###########
