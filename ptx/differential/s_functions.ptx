@@ -1,0 +1,123 @@
+<section xml:id="s_functions">
+  <title>Functions of sets</title>
+
+  <definition xml:id="d_functions_function">
+    <title>Functions</title>
+    <idx><h>function</h></idx>
+    <notation>
+      <usage>f\colon A\rightarrow B</usage>
+      <description>a function from <m>A</m> to <m>B</m></description>
+    </notation>
+    <statement>
+      <p>
+      Let <m>A</m> and <m>B</m> be two sets. A <term>function from <m>A</m> to <m>B</m></term>, denoted <m>f\colon A\rightarrow B</m>, is a rule which, given any <term>input</term> <m>a\in A</m>, returns an <term>output</term> <m>b\in B</m>. In this case we write <m>b=f(a)</m> and call <m>b</m> the <term>image of <m>a</m> under <m>f</m></term>, or the <term>value of <m>f</m> at <m>a</m> </term>. Similarly, we say <m>f</m> <term>maps</term> (or <term>sends</term>) the input <m>a</m> to the output <m>b</m>.
+      </p>
+      <p>
+        The set <m>A</m> is called the <term>domain</term> of <m>f</m>; the set <m>B</m> is called the <term>codomain</term> of <m>f</m>.
+      </p>
+      <p>
+        When we wish to indicate what rule defines the function, we use the elaborated notation
+        <md>
+          <mrow>f\colon A \amp\rightarrow B </mrow>
+          <mrow> a \amp\mapsto f(a)</mrow>
+        </md>.
+        This is read as <q>The function <m>f</m> from <m>A</m> to <m>B</m> maps an input <m>a</m> to the output <m>f(a)</m></q>.
+      </p>
+    </statement>
+  </definition>
+  <definition xml:id="d_functions_function_equality">
+    <title>Function equality</title>
+    <idx><h>function</h><h>equality</h></idx>
+    <statement>
+      <p>
+      Functions <m>f</m> and <m>g</m> are <term>equal</term> if
+      <ol label="i">
+        <li>
+          <p>
+            they have the same domain <m>A</m> and codomain <m>B</m>, and
+          </p>
+        </li>
+        <li>
+          <p>
+            for all <m>a\in A</m>, we have <m>f(a)=g(a)</m>.
+          </p>
+        </li>
+      </ol>
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="d_functions_image">
+    <title>Image of a set</title>
+    <idx><h>function</h><h>image of a set</h></idx>
+    <idx><h>function</h><h>image</h></idx>
+    <notation>
+      <usage>f(X)</usage>
+      <description>image of the set <m>X</m> under <m>f</m></description>
+    </notation>
+    <notation>
+      <usage>\operatorname{im} f</usage>
+      <description>image of a function <m>f</m></description>
+    </notation>
+    <statement>
+      <p>
+      Given a function <m>f\colon A\rightarrow B</m> and a subset <m>X \subseteq A</m>, the <term>image of <m>X</m> under <m>f</m></term>, denoted <m>f(X)</m>, is defined as
+      <me>
+        f(X)=\left\{ b \in B \colon f(x)=b \text{ for some } x \in X \right\}
+      </me>.
+      In other words, <m>f(X)</m> is the set of all outputs <m>f(x)</m>,  where <m>x\in X</m>.
+     </p>
+      <p>
+      The <term>image of <m>f</m></term>, denoted <m>\operatorname{im} f</m>, is the set of <em>all</em> outputs of <m>f</m>: <ie />,
+      <me>
+        \operatorname{im} f=f(A)=\left\{ b \in B \colon f(a)=b \text{ for some } a \in A \right\}
+      </me>.
+      </p>
+
+    </statement>
+  </definition>
+
+
+
+
+
+  <definition xml:id="d_functions_preimage">
+    <title>Preimage</title>
+    <idx><h>function</h><h>preimage of an element</h></idx>
+    <idx><h>function</h><h>preimage of a set</h></idx>
+    <notation>
+      <usage>f^{-1}(b)</usage>
+      <description>the preimage of <m>b</m> under <m>f</m></description>
+    </notation>
+    <statement>
+      <p>
+      Given a function <m>f\colon A \to B</m> and an element <m>b \in B</m>, the <term>preimage of <m>b</m> under <m>f</m></term>, denoted <m>f^{-1}(b)</m>, is the set of all elements of <m>A</m> that map to <m>b</m>: <ie />,
+      <me>
+      f^{-1}(b)=\left\{ a \in A \colon f(a)=b \right\}
+      </me>.
+      More generally, given a subset <m>Y \subseteq B</m>, the <term>preimage of <m>Y</m> under <m>f</m></term>, denoted <m>f^{-1}(Y)</m>, is the set of all elements of <m>A</m> that map to an element of <m>Y</m>: <ie />,
+          <me>
+          f^{-1}(Y)=\left\{ a \in A \colon f(a) \in Y \right\}
+          </me>.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="d_functions_function_composition">
+    <title>Function composition</title>
+    <idx><h>function</h><h>composition</h></idx>
+    <notation>
+      <usage>f\circ g</usage>
+      <description>the composition of <m>f</m> and <m>g</m></description>
+    </notation>
+    <statement>
+      <p>
+        Suppose <m>f\colon C\rightarrow D</m> and <m>g\colon A\rightarrow B</m> are functions satisfying <m>B\subseteq C</m>.  The <term>composition of <m>f</m> and <m>g</m></term>, denoted <m>f\circ g</m>, is the function from <m>A</m> to <m>D</m> defined as
+        <me>
+          f\circ g(a)=f(g(a))
+        </me>.
+      In other words, to evaluate <m>f\circ g</m> at the input <m>a</m> we <em>first</em> compute <m>g(a)</m>, and <em>then</em> compute <m>f(g(a))</m>.
+      </p>
+    </statement>
+  </definition>
+</section>

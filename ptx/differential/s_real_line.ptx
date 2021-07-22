@@ -1,4 +1,7 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="s_real_line">
+  <title>Topology of the real line</title>
+
+
 <introduction>
 
 </introduction>
@@ -16,7 +19,7 @@
     <me>
       \lvert x\rvert=\begin{cases}
         x \amp \text{if } x\geq 0\\
-        -x \amp \text{if } x \lt; 0
+        -x \amp \text{if } x &lt; 0
     \end{cases}
     </me>.
     </p>
@@ -46,7 +49,7 @@
   <title> Intervals</title>
   <statement>
     <p>
-    A subset <m>I</m> of <m>\mathbb{R}</m> is called an <term>interval</term> if whenever <m>I</m> contains real numbers <m>a, b</m>, it contains all numbers between <m>a</m> and <m>b</m>. More precisely: given <m>a, b\in I</m> with <m>a \lt; b</m>, if <m>a\lt; c\lt; b</m>, then <m>c\in I</m>.
+    A subset <m>I</m> of <m>\mathbb{R}</m> is called an <term>interval</term> if whenever <m>I</m> contains real numbers <m>a, b</m>, it contains all numbers between <m>a</m> and <m>b</m>. More precisely: given <m>a, b\in I</m> with <m>a &lt; b</m>, if <m>a&lt; c&lt; b</m>, then <m>c\in I</m>.
   </p>
   </statement>
 </definition>
@@ -61,9 +64,9 @@
   </notation>
   <statement>
     <p>
-    Let <m>a, b </m> be real numbers with <m>a \lt; b</m>. The <term>open interval from <m>a</m> to <m>b</m></term>, denoted <m>(a,b)</m>,  is the set
+    Let <m>a, b </m> be real numbers with <m>a &lt; b</m>. The <term>open interval from <m>a</m> to <m>b</m></term>, denoted <m>(a,b)</m>,  is the set
     <me>
-      (a,b)=\{ c\in\mathbb{R}\mid a\lt; c\lt; b\}
+      (a,b)=\{ c\in\mathbb{R}\mid a&lt; c&lt; b\}
     </me>.
     </p>
   </statement>
@@ -79,7 +82,7 @@
   </notation>
   <statement>
     <p>
-    Let <m>a,b</m> be real numbers with <m>a \lt; b</m>. The <term>closed interval from <m>a</m> to <m>b </m></term>, denoted  <m>[a,b]</m>, is the set
+    Let <m>a,b</m> be real numbers with <m>a &lt; b</m>. The <term>closed interval from <m>a</m> to <m>b </m></term>, denoted  <m>[a,b]</m>, is the set
     <me>
       [a,b]=\{ c\in\mathbb{R}\mid a\leq c \leq b \}
     </me>.
