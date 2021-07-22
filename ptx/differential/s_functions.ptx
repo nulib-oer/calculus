@@ -1,0 +1,91 @@
+<section xml:id="s_functions">
+  <title>Functions</title>
+
+  <definition xml:id="d_functions_function">
+    <title>Functions</title>
+    <idx><h>function</h><h>from <m>A</m> to <m>B</m></h></idx>
+    <notation>
+      <usage>f\colon A \to B</usage>
+      <description>a function with domain <m>A</m> and codomain <m>B</m></description>
+    </notation>
+    <statement>
+      <p>
+      Given sets <m>A</m> and <m>B</m>, a <term>function <m>f</m> from <m>A</m> to <m>B</m></term> is a rule that assigns to each element <m> a \in A </m> (called an <term>input</term>) a single element <m>b \in B</m> (called an <term>output</term>). We denote a function <m>f</m> from <m>A</m> to <m>B</m> by <m>f\colon A \to B</m>.
+      </p>
+      <p>
+      For a given function <m>f\colon A \to B</m>, the set <m>A</m> is called the <term>domain</term> of <m>f</m> and the set <m>B</m> is called the <term>codomain</term> of <m>f</m>.
+      </p>
+    </statement>
+  </definition>
+
+
+  <definition xml:id="d_functions_image">
+    <title>The image of a function</title>
+    <idx><h>function</h><h>image of a function</h></idx>
+    <notation>
+      <usage>\operatorname{Im} f</usage>
+      <description>the image of a function <m>f</m></description>
+    </notation>
+    <statement>
+      <p>
+      Given a function <m>f\colon A \to B</m>, the <term>image of <m>f</m></term>, denoted Im <m>f</m>, is the set of all outputs of <m>f</m>. More precisely,
+      <me>
+        \operatorname{Im} f=\left\{ b \in B \colon f(a)=b \text{for some } a \in A \right\}
+      </me>.
+      </p>
+    </statement>
+  </definition>
+
+
+  <definition xml:id="d_functions_image_of_a_set">
+    <title>The image of a set under a function <m>f</m></title>
+    <idx><h>function</h><h>image of a set <m>X</m> under <m>f</m></h></idx>
+    <notation>
+      <usage>f(X)</usage>
+      <description>the image of the set <m>X</m> under <m>f</m></description>
+    </notation>
+    <statement>
+      <p>
+      Given a function <m>f\colon A \to B</m> and a subset <m>X \subseteq A</m>, the <term>image of <m>X</m> under <m>f</m></term>, denoted <m>f(X)</m>, is the set of all outputs of <m>f</m> produced by elements of <m>X</m>. More precisely,
+      <me>
+        f(X)=\left\{ b \in B \colon f(x)=b \text{for some } x \in X \right\}
+      </me>.
+      </p>
+    </statement>
+  </definition>
+
+
+  <definition xml:id="d_functions_preimage_of_an_element">
+    <title>The preimage of an element</title>
+    <idx><h>function</h><h>preimage of an element</idx>
+    <notation>
+      <usage>f^{-1}(b)</usage>
+      <description>the preimage of an element <m>b</m> in the codomain of <m>f</m></description>
+    </notation>
+    <statement>
+      <p>
+      Given a function <m>f\colon A \to B</m> and an element <m>b \in B</m>, the <term>preimage of <m>b</m> under <m>f</m></term>, denoted <m>f^{-1}(b)</m>, is the set of all inputs in <m>A</m> which produce an output <m>b</m>. More precisely,
+      <me>
+      f^{-1}(b)=\left\{ a \in A \colon f(a)=b \right\}
+      </me>.
+      </p>
+    </statement>
+  </definition>
+
+
+  <definition xml:id="d_functions_preimage_of_a_set">
+    <title>The preimage of a set</title>
+    <idx><h>function</h><h>preimage of a set</idx>
+    <notation>
+      <usage>f^{-1}(Y)</usage>
+      <description>the preimage of a subset <m>Y</m> of the codomain of <m>f</m></description>
+    </notation>
+    <statement>
+      <p>
+      Given a function <m>f\colon A \to B</m> and a subset <m>Y \subseteq B</m>, the <term>preimage of <m>Y</m> under <m>f</m></term>, denoted <m>f^{-1}(Y)</m>, is the set of all inputs in <m>A</m> which produce an output in <m>Y</m>. More precisely,
+      <me>
+      f^{-1}(Y)=\left\{ a \in A \colon f(a) \in Y \right\}
+      </me>.
+      </p>
+    </statement>
+  </definition>
