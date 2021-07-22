@@ -8,7 +8,7 @@
       A <term>set</term> is a collection of objects.
       </p>
       <p>
-      An element <m>x</m> is a  <term>member</term> of a set <m>A</m> if <m>A</m> contains <m>x</m>. In this case, we write <m>x \in A</m>. If <m>x</m> is not a member of <m>A</m>, we write <m>x \notin A</m>.
+      An object <m>x</m> is a  <term>member</term> (or <term>element</term>) of a set <m>A</m> if <m>A</m> contains <m>x</m>. In this case, we write <m>x \in A</m>. If <m>x</m> is not a member of <m>A</m>, we write <m>x \notin A</m>.
       </p>
     </statement>
   </definition>
