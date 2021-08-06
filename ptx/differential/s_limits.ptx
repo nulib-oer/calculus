@@ -1,0 +1,30 @@
+<section xml:id="s_limits">
+  <title>Sets and logic</title>
+
+  <definition xml:id="d_limits_two_sided_limit">
+    <title>Limits</title>
+    <idx><h>limit</h></idx>
+    <statement>
+      <p>
+      Let <m>f\colon \mathbb{R} \to \mathbb{R}</m> be a function, and let <m>c,L</m> be numbers. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> is <m>L</m></term>, and write
+      <me>
+        \lim\limits_{x\to c}f(x)=L
+      </me>
+      if the following holds: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c-\delta,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="d_limits_one_sided_limit">
+    <title>One-Sided Limits</title>
+    <idx><h>one-sided limit</h></idx>
+    <statement>
+      <p>
+      Let <m>f\colon \mathbb{R} \to \mathbb{R}</m> be a function, and let <m>c,L</m> be numbers. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the right is <m>L</m></term>, and write
+      <me>
+        \lim\limits_{x\to c^+}f(x)=L
+      </me>
+      if the following holds: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
+      </p>
+    </statement>
+  </definition>
