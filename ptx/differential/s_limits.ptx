@@ -1,17 +1,46 @@
 <section xml:id="s_limits">
-<<<<<<< HEAD
-  <title>Sets and logic</title>
+  <title>Limits of functions</title>
+<introduction>
 
+</introduction>
   <definition xml:id="d_limits_two_sided_limit">
-    <title>Limits</title>
+    <title>Limit at a point</title>
     <idx><h>limit</h></idx>
     <statement>
       <p>
-      Let <m>f\colon \mathbb{R} \to \mathbb{R}</m> be a function, and let <m>c,L</m> be numbers. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> is <m>L</m></term>, and write
+      Let <m>f</m> be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>, and suppose <m>D</m> contains a punctured interval of the form <m>(a,b)-\{c\}</m>. We say that the <term>limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> exists</term> if there is an <m>L\in \mathbb{R} </m> satisfying the following condition:
+      for all <m>\epsilon >0</m> there is a <m>\delta>0</m> such that
+      given any <m>x\in (c-\delta, c+\delta)</m> with <m>x\ne c</m>, we have <m>f(x)\in (L-\epsilon, L+\epsilon)</m>.
+      <!-- <m>x\ne c \in (c-\delta, c+\delta)</m> implies <m>f(x)\in (L-\epsilon, L+\epsilon)</m>. -->
+      Using logical shorthand:
+      <men xml:id="d_limit_implication">
+        x\in (c-\delta, c+\delta) \text{ and } x\ne c\implies f(x)\in (L-\epsilon, L+\epsilon)
+      </men >.
+
+      In this case we call <m>L</m> the <term>limit of <m>f(x)</m> as  <m>x</m> approaches <m>c</m> </term>, and write
       <me>
         \lim\limits_{x\to c}f(x)=L
       </me>
-      if the following holds: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c-\delta,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
+
+      </p>
+    </statement>
+  </definition>
+
+  <definition xml:id="d_limit">
+    <title>Limit at a point (Take 2)</title>
+    <idx><h>limit</h></idx>
+    <statement>
+      <p>
+      Let <m>f</m> be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>, and suppose <m>D</m> contains a punctured interval of the form <m>(a,b)-\{c\}</m>. We say that the <term>limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> exists</term> if there is an <m>L\in \mathbb{R} </m> satisfying the following condition: for all <m>\epsilon >0</m> there is a <m>\delta>0</m> such that <m>0\lt d(x,c)\lt \delta</m> implies <m>d(f(x),L)\lt \epsilon</m>. Using logical shorthand:
+      <men xml:id="d_limit_take2_implication">
+        0\lt d(x,c)\lt \delta\implies d(f(x),L)\lt \epsilon
+      </men>.
+
+      In this case we call <m>L</m> the <term>limit of <m>f(x)</m> as  <m>x</m> approaches <m>c</m> </term>, and write
+      <me>
+        \lim\limits_{x\to c}f(x)=L
+      </me>.
+
       </p>
     </statement>
   </definition>
@@ -21,17 +50,21 @@
     <idx><h>one-sided limit</h></idx>
     <statement>
       <p>
-      Let <m>f\colon \mathbb{R} \to \mathbb{R}</m> be a function, and let <m>c,L</m> be numbers. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the right is <m>L</m></term>, and write
+      Let <m>f</m> be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>, and suppose <m>D</m> contains an interval of the form <m>(c,d)</m>. We say that the <term>limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the right</term> exists
+      if there is an <m>L\in \mathbb{R}</m> satisfying the following condition: for all <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that <m>x \in (c,c+\delta)</m> implies <m>f(x) \in (L-\epsilon,L+\epsilon)</m>. Using logical shorthand:
+      <men xml:id="d_rightlimit_implication">
+        x \in (c,c+\delta)\implies f(x)\in (L-\epsilon, L+\epsilon)
+      </men>.
+      We call <m>L</m> the <term>limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the right</term>, and write
       <me>
         \lim\limits_{x\to c^+}f(x)=L
       </me>
-      if the following holds: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
       </p>
     </statement>
   </definition>
-=======
-  <title>Limits</title>
-  <definition xml:id="d_functions_function_nonref">
+
+
+  <!-- <definition xml:id="d_functions_function_nonref">
     <title>Functions</title>
     <idx><h>function</h><h>from <m>A</m> to <m>B</m></h></idx>
     <notation>
@@ -46,10 +79,7 @@
       For a given function <m>f\colon A \to B</m>, the set <m>A</m> is called the <term>domain</term> of <m>f</m> and the set <m>B</m> is called the <term>codomain</term> of <m>f</m>.
       </p>
     </statement>
-  </definition>
-  <p>
-    Recall <xref ref="d_functions_function"/>.
-  </p>
+  </definition> -->
+
 
 </section>
->>>>>>> 538ef3ae5250298ddbe19844cd90cd25fe69a17b
