@@ -1,5 +1,4 @@
 <section xml:id="s_limits">
-<<<<<<< HEAD
   <title>Sets and logic</title>
 
   <definition xml:id="d_limits_two_sided_limit">
@@ -29,27 +28,3 @@
       </p>
     </statement>
   </definition>
-=======
-  <title>Limits</title>
-  <definition xml:id="d_functions_function_nonref">
-    <title>Functions</title>
-    <idx><h>function</h><h>from <m>A</m> to <m>B</m></h></idx>
-    <notation>
-      <usage>f\colon A \to B</usage>
-      <description>a function with domain <m>A</m> and codomain <m>B</m></description>
-    </notation>
-    <statement>
-      <p>
-      Given sets <m>A</m> and <m>B</m>, a <term>function <m>f</m> from <m>A</m> to <m>B</m></term> is a rule that assigns to each element <m> a \in A </m> (called an <term>input</term>) a single element <m>b \in B</m> (called an <term>output</term>). We denote a function <m>f</m> from <m>A</m> to <m>B</m> by <m>f\colon A \to B</m>.
-      </p>
-      <p>
-      For a given function <m>f\colon A \to B</m>, the set <m>A</m> is called the <term>domain</term> of <m>f</m> and the set <m>B</m> is called the <term>codomain</term> of <m>f</m>.
-      </p>
-    </statement>
-  </definition>
-  <p>
-    Recall <xref ref="d_functions_function"/>.
-  </p>
-
-</section>
->>>>>>> 538ef3ae5250298ddbe19844cd90cd25fe69a17b
