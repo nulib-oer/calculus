@@ -119,6 +119,17 @@ Sean McAfee
 </definition>
 
 
+<definition xml:id="d_real_line_punctured_interval">
+  <title> Puntured intervals</title>
+  <idx><h>interval</h><h>punctured interval</h></idx>
+    <statement>
+    <p>
+    Let <m>I</m> be an interval, and let <m>c</m> be an interior point of <m>I</m>. The set <m>I - \{ c \}</m> is called a <term>punctured interval about <m>c</m></term> .
+    </p>
+  </statement>
+</definition>
+
+
 <definition xml:id="d_real_line_open_set">
   <title>Open sets of real numbers </title>
   <statement>
