@@ -6,11 +6,11 @@
     <idx><h>limit</h></idx>
     <statement>
       <p>
-      Let <m>f\colon \mathbb{R} \to \mathbb{R}</m> be a function, and let <m>c,L</m> be numbers. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> is <m>L</m></term>, and write
+      Let <m>f\colon \mathbb{R} \to \mathbb{R}</m> be a function defined on a punctured interval containing a point <m>c</m>. Let <m>L</m> be a real number. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> is <m>L</m></term>, and write
       <me>
         \lim\limits_{x\to c}f(x)=L
       </me>
-      if the following holds: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c-\delta,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
+      if the following holds: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c-\delta,c) \cup (c,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
       </p>
     </statement>
   </definition>
@@ -20,7 +20,7 @@
     <idx><h>one-sided limit</h></idx>
     <statement>
       <p>
-      Let <m>f\colon \mathbb{R} \to \mathbb{R}</m> be a function, and let <m>c,L</m> be numbers. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the right is <m>L</m></term>, and write
+      Let <m>f\colon \mathbb{R} \to \mathbb{R}</m> be a function defined on an open interval <m>(c,d)</m>. Let <m>L</m> be a real number. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the right is <m>L</m></term>, and write
       <me>
         \lim\limits_{x\to c^+}f(x)=L
       </me>
