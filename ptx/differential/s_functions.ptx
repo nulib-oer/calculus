@@ -25,6 +25,8 @@
       </p>
     </statement>
   </definition>
+
+
   <definition xml:id="d_functions_function_equality">
     <title>Function equality</title>
     <idx><h>function</h><h>equality</h></idx>
@@ -46,6 +48,7 @@
       </p>
     </statement>
   </definition>
+
 
   <definition xml:id="d_functions_image">
     <title>Image of a set</title>
@@ -78,9 +81,6 @@
   </definition>
 
 
-
-
-
   <definition xml:id="d_functions_preimage">
     <title>Preimage</title>
     <idx><h>function</h><h>preimage of an element</h></idx>
@@ -102,6 +102,7 @@
       </p>
     </statement>
   </definition>
+  
 
   <definition xml:id="d_functions_function_composition">
     <title>Function composition</title>

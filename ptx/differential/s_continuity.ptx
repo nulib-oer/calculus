@@ -1,0 +1,48 @@
+<section xml:id="s_continuity">
+  <title>Continuity</title>
+
+  <definition xml:id="d_continuity_at_a_point">
+    <title>Continuity at a point</title>
+    <idx><h>continuity</h><h>at a point</h></idx>
+    <statement>
+      <p>
+      Let <m>f</m>  be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>. Given <m>c\in D</m>, we say <term><m>f</m> is continuous at <m>c</m></term> if one of the conditions below is met.
+      <ul>
+        <li>
+          <title> Interior point</title>
+          <p>
+          The input <m>c</m> is an interior point of <m>D</m>, the limit of <m>f</m> as <m>x</m> approaches <m>c</m> exists, and
+          <me>
+          \lim\limits_{x \to c} f(x)=f(c)
+          </me>.
+          </p>
+        </li>
+        <li>
+          <title> Left endpoint</title>
+          <p>
+            The input <m>c</m> is a <term>left endpoint</term> of the domain (<ie />, <m>c</m> is not an interior point, and <m>D</m> contains an interval of the form <m>[c, d)</m>), the limit of <m>f</m> as <m>x</m> approaches <m>c</m> from the right exists, and
+            <me>
+              \lim\limits_{x \to c^+} f(x)=f(c)
+            </me>.
+          </p>
+        </li>
+          <li>
+            <title> Right endpoint</title>
+            <p>
+              The input <m>c</m> is a <term>right endpoint</term> of the domain (<ie />, <m>c</m> is not an interior point, and <m>D</m> contains an interval of the form <m>(b,c]</m>), the limit of <m>f</m> as <m>x</m> approaches <m>c</m> from the left exists, and
+              <me>
+                \lim\limits_{x \to c^-} f(x)=f(c)
+              </me>.
+            </p>
+        </li>
+      </ul>
+      </p>
+    </statement>
+  </definition>
+  <definition xml:id="d_continuous">
+    <statement>
+      <p>
+        Let <m>f</m> be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>. We say <m>f</m> is <term>continuous</term> if it is continuous at all inputs <m>c\in D</m>. 
+      </p>
+    </statement>
+  </definition>
