@@ -26,7 +26,7 @@
     <idx><h>one-sided limit</h></idx>
     <statement>
       <p>
-      Let <m>f</m> be a real-valued function with domain <m>D</m>, and suppose <m>D</m> contains an interval <m>(c,d)</m>. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the right exists </m></term> if there is an <m>L \in \mathbb{R}</m> satisfying the following condition: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
+      Let <m>f</m> be  a real-valued function with domain <m>D</m>, and suppose <m>D</m> contains an interval <m>(c,d)</m>. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the right exists </m></term> if there is an <m>L \in \mathbb{R}</m> satisfying the following condition: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
 
       Using logical shorthand:
       <me>
