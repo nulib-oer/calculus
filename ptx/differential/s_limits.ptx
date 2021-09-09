@@ -54,4 +54,86 @@
       </p>
     </statement>
   </definition>
+  <definition xml:id="d_limit_at_infinity">
+    <title>Limits at infinity</title>
+    <idx><h>limit</h><h>at infinity</h></idx>
+    <statement>
+      <p>
+      Let <m>f</m> be a real-valued function with domain <m>D</m>.
+      </p>
+      <ul>
+        <li>
+          <title>Limit at <m>\infty</m></title>
+          <p>
+            Assume <m>D</m> contains an open interval of the form <m>(a,\infty)</m>. We say the <term>limit of <m>f</m> as <m>x</m> approaches infinity</term> exists if there is an <m>L\in \mathbb{R}</m> satisfying the following condition:
+            for every <m>\epsilon>0</m> there exists an <m>M\in \mathbb{R}</m> such that whenever <m>x\in (M,\infty)</m>, we have <m>f(x)\in (L-\epsilon, L+\epsilon)</m>.
+          </p>
+          <p>
+            In this case we call <m>L</m> the <term> limit of <m>f(x)</m> as <m>x</m> approaches infinity </term>, and write
+            <me>
+              \lim\limits_{x\to \infty}f(x)=L
+            </me>.
+          </p>
+        </li>
+        <li>
+          <title>Limit at <m>-\infty</m></title>
+          <p>
+            Assume <m>D</m> contains an open interval of the form <m>(-\infty, a)</m>. We say the <term>limit of <m>f</m> as <m>x</m> approaches negative infinity</term> exists if there is an <m>L\in \mathbb{R}</m> satisfying the following condition:
+            for every <m>\epsilon>0</m> there exists an <m>M\in \mathbb{R}</m> such that whenever <m>x\in (-\infty, M)</m>, we have <m>f(x)\in (L-\epsilon, L+\epsilon)</m>.
+          </p>
+          <p>
+            In this case we call <m>L</m> the <term> limit of <m>f(x)</m> as <m>x</m> approaches negative infinity </term>, and write
+            <me>
+              \lim\limits_{x\to -\infty}f(x)=L
+            </me>.
+          </p>
+        </li>
+      </ul>
+    </statement>
+  </definition>
+  <definition xml:id="d_infinite_limit">
+    <title>Infinite limits</title>
+    <idx><h>limit</h><h>infinite</h></idx>
+    <statement>
+      <p>
+        Let <m>f</m> be a real-valued function with domain <m>D</m>.
+      </p>
+      <ul>
+        <li>
+          <title>Right-limit</title>
+          <p>
+            Suppose <m>D</m> contains an interval of the form <m>(c,d)</m>. We say <term><m>f(x)</m> approaches infinity as <m>x</m> approaches <m>c</m> from the right </term> if for all <m>N\in \mathbb{R}</m> there exists a <m>\delta>0</m> such that the following condition holds: whenever <m>x\in (c,c+\delta)</m>, we have <m>f(x)\in (N,\infty)</m>.
+          </p>
+          <p>
+            Similarly, we say <term><m>f(x)</m> approaches negative infinity as <m>x</m> approaches <m>c</m> from the right </term> if for all <m>N\in \mathbb{R}</m> there exists a <m>\delta>0</m> such that the following condition holds: whenever <m>x\in (c,c+\delta)</m>, we have <m>f(x)\in (-\infty, N)</m>.
+          </p>
+          <p>
+            We write
+            <me>
+              \lim\limits_{x\to c^+}f(x)=\infty \text{ or } \lim\limits_{x\to c^+}f(x)=-\infty
+            </me>
+            in these respective cases.
+
+          </p>
+        </li>
+        <li>
+          <title>Left-limit</title>
+          <p>
+            Suppose <m>D</m> contains an interval of the form <m>(b,c)</m>. We say <term><m>f(x)</m> approaches infinity as <m>x</m> approaches <m>c</m> from the left </term> if for all <m>N\in \mathbb{R}</m> there exists a <m>\delta>0</m> such that the following condition holds: whenever <m>x\in (c-\delta,c)</m>, we have <m>f(x)\in (N,\infty)</m>.
+          </p>
+          <p>
+            Similarly, we say <term><m>f(x)</m> approaches negative infinity as <m>x</m> approaches <m>c</m> from the right </term> if for all <m>N\in \mathbb{R}</m> there exists a <m>\delta>0</m> such that the following condition holds: whenever <m>x\in (c-\delta,c)</m>, we have <m>f(x)\in (-\infty, N)</m>.
+          </p>
+          <p>
+            We write
+            <me>
+              \lim\limits_{x\to c^-}f(x)=\infty \text{ or } \lim\limits_{x\to c^-}f(x)=-\infty
+            </me>
+            in these respective cases.
+
+          </p>
+        </li>
+      </ul>
+    </statement>
+  </definition>
 </section>
