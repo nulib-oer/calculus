@@ -42,7 +42,8 @@
   <definition xml:id="d_continuous">
     <statement>
       <p>
-        Let <m>f</m> be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>. We say <m>f</m> is <term>continuous</term> if it is continuous at all inputs <m>c\in D</m>. 
+        Let <m>f</m> be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>. We say <m>f</m> is <term>continuous</term> if it is continuous at all inputs <m>c\in D</m>.
       </p>
     </statement>
   </definition>
+</section>

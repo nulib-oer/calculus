@@ -1,4 +1,5 @@
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="c_limits">
-  <title>Limits of functions</title>
+  <title>Limits of functions and continuity</title>
   <xi:include  href="./s_limits.ptx"/>
+  <xi:include  href="./s_continuity.ptx"/>
 </chapter>

@@ -1,5 +1,6 @@
 <section xml:id="s_limits">
   <title>Limits of functions</title>
+<introduction>
 
 </introduction>
   <definition xml:id="d_limits_two_sided_limit">
@@ -7,7 +8,7 @@
     <idx><h>limit</h></idx>
     <statement>
       <p>
-      Let <m>f</m> be a real-valued function with domain <m>D \subseteq \mathbb{R}</m>, and suppose <m>D</m> contains a punctured interval about <m>c \in \mathbb{R}</m>. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> exists </m></term> if there is an <m>L \in \mathbb{R}</m> satisfying the following condition: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c-\delta,c) \cup (c,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
+      Let <m>f</m> be a real-valued function with domain <m>D \subseteq \mathbb{R}</m>, and suppose <m>D</m> contains a punctured interval about <m>c \in \mathbb{R}</m>. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> exists</term> if there is an <m>L \in \mathbb{R}</m> satisfying the following condition: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c-\delta,c) \cup (c,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
 
       Using logical shorthand:
       <men xml:id="d_limit_implication">
@@ -27,7 +28,7 @@
     <idx><h>one-sided limit</h></idx>
     <statement>
       <p>
-      Let <m>f</m> be a real-valued function with domain <m>D</m>, and suppose <m>D</m> contains an interval <m>(c,d)</m>. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the right exists </m></term> if there is an <m>L \in \mathbb{R}</m> satisfying the following condition: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
+      Let <m>f</m> be a real-valued function with domain <m>D</m>, and suppose <m>D</m> contains an interval <m>(c,d)</m>. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the right exists</term> if there is an <m>L \in \mathbb{R}</m> satisfying the following condition: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
 
       Using logical shorthand:
       <me>
@@ -39,7 +40,7 @@
         \lim\limits_{x\to c^+}f(x)=L
       </me>.
 
-      Similarly, assuming <m>D</m> contains an interval <m>(b,c)</m>, we say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the left exists </m></term> if there is an <m>L \in \mathbb{R}</m> satisfying the following condition: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c-\delta,c)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
+      Similarly, assuming <m>D</m> contains an interval <m>(b,c)</m>, we say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the left exists</term> if there is an <m>L \in \mathbb{R}</m> satisfying the following condition: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c-\delta,c)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
 
       Using logical shorthand:
       <me>
@@ -53,3 +54,4 @@
       </p>
     </statement>
   </definition>
+</section>

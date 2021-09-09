@@ -28,7 +28,7 @@
         <part>
             <title>Differential</title>
                 <xi:include href="./differential/c_sets_logic_reals.ptx"/>
-                <xi:include href="./differential/c_limits.ptx"/>
+                <xi:include href="./differential/c_limits_continuity.ptx"/>
 
         </part>
 
