@@ -5,7 +5,7 @@
     <title>Functions</title>
     <idx><h>function</h></idx>
     <notation>
-      <usage>f\colon A\rightarrow B</usage>
+      <usage><m>f\colon A\rightarrow B</m></usage>
       <description>a function from <m>A</m> to <m>B</m></description>
     </notation>
     <statement>
@@ -55,11 +55,11 @@
     <idx><h>function</h><h>image of a set</h></idx>
     <idx><h>function</h><h>image</h></idx>
     <notation>
-      <usage>f(X)</usage>
+      <usage><m>f(X)</m></usage>
       <description>image of the set <m>X</m> under <m>f</m></description>
     </notation>
     <notation>
-      <usage>\operatorname{im} f</usage>
+      <usage><m>\operatorname{im} f</m></usage>
       <description>image of a function <m>f</m></description>
     </notation>
     <statement>
@@ -86,7 +86,7 @@
     <idx><h>function</h><h>preimage of an element</h></idx>
     <idx><h>function</h><h>preimage of a set</h></idx>
     <notation>
-      <usage>f^{-1}(b)</usage>
+      <usage><m>f^{-1}(b)</m></usage>
       <description>the preimage of <m>b</m> under <m>f</m></description>
     </notation>
     <statement>
@@ -102,13 +102,13 @@
       </p>
     </statement>
   </definition>
-  
+
 
   <definition xml:id="d_functions_function_composition">
     <title>Function composition</title>
     <idx><h>function</h><h>composition</h></idx>
     <notation>
-      <usage>f\circ g</usage>
+      <usage><m>f\circ g</m></usage>
       <description>the composition of <m>f</m> and <m>g</m></description>
     </notation>
     <statement>

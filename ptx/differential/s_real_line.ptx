@@ -10,7 +10,7 @@
   <title>Absolute value</title>
   <idx><h>absolute value</h></idx>
   <notation>
-    <usage>\lvert x \rvert</usage>
+    <usage><m>\lvert x \rvert</m></usage>
     <description>absolute value of <m>x</m></description>
   </notation>
   <statement>
@@ -31,7 +31,7 @@
   <title> Distance function </title>
   <idx><h>distance function</h></idx>
   <notation>
-    <usage>d(x,y)</usage>
+    <usage><m>d(x,y)</m></usage>
     <description>the distance between <m>x</m> and <m>y</m></description>
   </notation>
   <statement>
@@ -59,7 +59,7 @@
   <title> Open intervals</title>
   <idx><h>interval</h><h>open interval</h></idx>
   <notation>
-    <usage>(a,b)</usage>
+    <usage><m>(a,b)</m></usage>
     <description>the open interval from <m>a</m> to <m>b</m></description>
   </notation>
   <statement>
@@ -77,7 +77,7 @@
   <title> Closed intervals of real numbers </title>
   <idx><h>interval</h><h>closed interval</h></idx>
   <notation>
-    <usage>[a,b]</usage>
+    <usage><m>[a,b]</m></usage>
     <description>the closed interval from <m>a</m> to <m>b</m></description>
   </notation>
   <statement>

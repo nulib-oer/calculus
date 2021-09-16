@@ -1,5 +1,0 @@
-<chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="c_sets_logic_reals">
-  <title>Sets, logic and the reals</title>
-    <xi:include href="./s_sets"/>
-    <!-- <xi:include href="./s_real_line"/> -->
-</chapter>

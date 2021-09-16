@@ -1,48 +1,88 @@
 <section xml:id="s_continuity">
   <title>Continuity</title>
-
-  <definition xml:id="d_continuity_at_a_point">
-    <title>Continuity at a point</title>
-    <idx><h>continuity</h><h>at a point</h></idx>
+  <definition xml:id="d_continuity_at_interior_point">
+    <title>Continuity at interior points</title>
+    <idx><h>continuity</h><h>at an interior point</h></idx>
     <statement>
       <p>
-      Let <m>f</m>  be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>. Given <m>c\in D</m>, we say <term><m>f</m> is continuous at <m>c</m></term> if one of the conditions below is met.
-      <ul>
+      Let <m>f</m>  be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>, and let <m>c</m> be an interior point of <m>D</m>. We say <m>f</m> is <term>continuous at <m>c</m></term> if the following two conditions hold:
+      <ol>
         <li>
-          <title> Interior point</title>
           <p>
-          The input <m>c</m> is an interior point of <m>D</m>, the limit of <m>f</m> as <m>x</m> approaches <m>c</m> exists, and
-          <me>
-          \lim\limits_{x \to c} f(x)=f(c)
-          </me>.
+            The limit of <m>f</m> as <m>x</m> approaches <m>c</m> exists.
           </p>
         </li>
         <li>
-          <title> Left endpoint</title>
           <p>
-            The input <m>c</m> is a <term>left endpoint</term> of the domain (<ie />, <m>c</m> is not an interior point, and <m>D</m> contains an interval of the form <m>[c, d)</m>), the limit of <m>f</m> as <m>x</m> approaches <m>c</m> from the right exists, and
+            We have
             <me>
-              \lim\limits_{x \to c^+} f(x)=f(c)
+            \lim\limits_{x \to c} f(x)=f(c)
             </me>.
           </p>
         </li>
-          <li>
-            <title> Right endpoint</title>
-            <p>
-              The input <m>c</m> is a <term>right endpoint</term> of the domain (<ie />, <m>c</m> is not an interior point, and <m>D</m> contains an interval of the form <m>(b,c]</m>), the limit of <m>f</m> as <m>x</m> approaches <m>c</m> from the left exists, and
-              <me>
-                \lim\limits_{x \to c^-} f(x)=f(c)
-              </me>.
-            </p>
-        </li>
-      </ul>
-      </p>
+      </ol>
+    </p>
     </statement>
-  </definition>
+    </definition>
+<definition xml:id="d_leftright_continuity">
+  <statement>
+      <p>
+      Let <m>f</m>  be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>.
+    </p>
+    <ul>
+      <li>
+        <title> Left-continuous at a point</title>
+        <p> Let <m>c\in D</m>, and suppose <m>D</m> contains an interval of the form <m>(b,c]</m>. We say <m>f</m> is <term>left-continuous at <m>c</m></term> if the limit of <m>f</m> as <m>x</m> approaches <m>c</m> from the left exists, and
+          <me>
+            \lim\limits_{x \to c^-} f(x)=f(c)
+          </me>.
+        </p>
+      </li>
+      <li>
+        <title> Right-continuous at a point</title>
+        <p> Let <m>c\in D</m>, and suppose <m>D</m> contains an interval of the form <m>[c, d)</m>. We say <m>f</m> is <term>right-continuous at <m>c</m></term> if the limit of <m>f</m> as <m>x</m> approaches <m>c</m> from the right exists, and
+          <me>
+            \lim\limits_{x \to c^+} f(x)=f(c)
+          </me>.
+        </p>
+      </li>
+
+    </ul>
+  </statement>
+</definition>
+<definition xml:id="d_continuity_at_endpoints">
+  <title>Continuity at endpoints</title>
+  <idx><h>continuity</h><h>at endpoints</h></idx>
+  <statement>
+    <p>
+      Let <m>f</m> be a real-valued function with domain <m>D\subseteq\mathbb{R}</m>.
+    </p>
+    <ul>
+      <li>
+        <title>Continuity at right endpoints</title>
+        <p>
+          An element <m>c\in D</m> is a <term>right endpoint</term> of <m>D</m> if it is not an interior point, and <m>D</m> contains an interval of the form <m>(b,c]</m>.
+        </p>
+        <p>
+          If <m>c</m> is a right endpoint of <m>D</m>, then we say <m>f</m> is continuous at <m>c</m> if it is left-continuous at <m>c</m>.
+        </p>
+      </li>
+      <li>
+        <title>Continuity at left endpoints</title>
+        <p>
+          An element <m>c\in D</m> is a <term>left endpoint</term> of <m>D</m> if it is not an interior point, and <m>D</m> contains an interval of the form <m>[c,d)</m>.
+        </p>
+        <p>
+          If <m>c</m> is a left endpoint of <m>D</m>, then we say <m>f</m> is continuous at <m>c</m> if it is right-continuous at <m>c</m>.
+        </p>
+      </li>
+    </ul>
+  </statement>
+</definition>
   <definition xml:id="d_continuous">
     <statement>
       <p>
-        Let <m>f</m> be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>. We say <m>f</m> is <term>continuous</term> if it is continuous at all inputs <m>c\in D</m>.
+        Let <m>f</m> be a real-valued function whose domain <m>D</m> is a union of intervals. We say <m>f</m> is <term>continuous</term> if <m>f</m> is continuous at all points <m>c\in D</m>.
       </p>
     </statement>
   </definition>
