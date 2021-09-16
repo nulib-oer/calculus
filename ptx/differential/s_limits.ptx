@@ -1,23 +1,139 @@
 <section xml:id="s_limits">
-  <title>Limits</title>
-  <definition xml:id="d_functions_function_nonref">
-    <title>Functions</title>
-    <idx><h>function</h><h>from <m>A</m> to <m>B</m></h></idx>
-    <notation>
-      <usage>f\colon A \to B</usage>
-      <description>a function with domain <m>A</m> and codomain <m>B</m></description>
-    </notation>
+  <title>Limits of functions</title>
+<introduction>
+
+</introduction>
+  <definition xml:id="d_limits_two_sided_limit">
+    <title>Limit at a point</title>
+    <idx><h>limit</h></idx>
     <statement>
       <p>
-      Given sets <m>A</m> and <m>B</m>, a <term>function <m>f</m> from <m>A</m> to <m>B</m></term> is a rule that assigns to each element <m> a \in A </m> (called an <term>input</term>) a single element <m>b \in B</m> (called an <term>output</term>). We denote a function <m>f</m> from <m>A</m> to <m>B</m> by <m>f\colon A \to B</m>.
-      </p>
-      <p>
-      For a given function <m>f\colon A \to B</m>, the set <m>A</m> is called the <term>domain</term> of <m>f</m> and the set <m>B</m> is called the <term>codomain</term> of <m>f</m>.
+      Let <m>f</m> be a real-valued function with domain <m>D \subseteq \mathbb{R}</m>, and suppose <m>D</m> contains a punctured interval about <m>c \in \mathbb{R}</m>. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> exists</term> if there is an <m>L \in \mathbb{R}</m> satisfying the following condition: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c-\delta,c) \cup (c,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
+
+      Using logical shorthand:
+      <men xml:id="d_limit_implication">
+        x \in (c-\delta,c) \cup (c,c+\delta) \implies f(x) \in (L-\epsilon,L+\epsilon)
+      </men>.
+
+      In this case we call <m>L</m> the <term> limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> </term>, and write
+      <me>
+        \lim\limits_{x\to c}f(x)=L
+      </me>.
       </p>
     </statement>
   </definition>
-  <p>
-    Recall <xref ref="d_functions_function"/>.
-  </p>
 
+  <definition xml:id="d_limits_one_sided_limit">
+    <title>One-Sided Limits</title>
+    <idx><h>one-sided limit</h></idx>
+    <statement>
+      <p>
+      Let <m>f</m> be a real-valued function with domain <m>D</m>, and suppose <m>D</m> contains an interval <m>(c,d)</m>. We say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the right exists</term> if there is an <m>L \in \mathbb{R}</m> satisfying the following condition: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c,c+\delta)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
+
+      Using logical shorthand:
+      <me>
+        x \in (c,c+\delta) \implies f(x) \in (L-\epsilon,L+\epsilon)
+      </me>.
+
+      In this case we call <m>L</m> the <term> limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> </term>, and write
+      <me>
+        \lim\limits_{x\to c^+}f(x)=L
+      </me>.
+
+      Similarly, assuming <m>D</m> contains an interval <m>(b,c)</m>, we say <term>the limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the left exists</term> if there is an <m>L \in \mathbb{R}</m> satisfying the following condition: for every <m>\epsilon>0</m> there exists a <m>\delta>0</m> such that whenever <m>x \in (c-\delta,c)</m> we have <m>f(x) \in (L-\epsilon,L+\epsilon)</m>.
+
+      Using logical shorthand:
+      <me>
+        x \in (c-\delta,c) \implies f(x) \in (L-\epsilon,L+\epsilon)
+      </me>.
+
+      In this case we call <m>L</m> the <term> limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the left</term>, and write
+      <me>
+        \lim\limits_{x\to c^-}f(x)=L
+      </me>.
+      </p>
+    </statement>
+  </definition>
+  <definition xml:id="d_limit_at_infinity">
+    <title>Limits at infinity</title>
+    <idx><h>limit</h><h>at infinity</h></idx>
+    <statement>
+      <p>
+      Let <m>f</m> be a real-valued function with domain <m>D</m>.
+      </p>
+      <ul>
+        <li>
+          <title>Limit at <m>\infty</m></title>
+          <p>
+            Assume <m>D</m> contains an open interval of the form <m>(a,\infty)</m>. We say the <term>limit of <m>f</m> as <m>x</m> approaches infinity</term> exists if there is an <m>L\in \mathbb{R}</m> satisfying the following condition:
+            for every <m>\epsilon>0</m> there exists an <m>M\in \mathbb{R}</m> such that whenever <m>x\in (M,\infty)</m>, we have <m>f(x)\in (L-\epsilon, L+\epsilon)</m>.
+          </p>
+          <p>
+            In this case we call <m>L</m> the <term> limit of <m>f(x)</m> as <m>x</m> approaches infinity </term>, and write
+            <me>
+              \lim\limits_{x\to \infty}f(x)=L
+            </me>.
+          </p>
+        </li>
+        <li>
+          <title>Limit at <m>-\infty</m></title>
+          <p>
+            Assume <m>D</m> contains an open interval of the form <m>(-\infty, a)</m>. We say the <term>limit of <m>f</m> as <m>x</m> approaches negative infinity</term> exists if there is an <m>L\in \mathbb{R}</m> satisfying the following condition:
+            for every <m>\epsilon>0</m> there exists an <m>M\in \mathbb{R}</m> such that whenever <m>x\in (-\infty, M)</m>, we have <m>f(x)\in (L-\epsilon, L+\epsilon)</m>.
+          </p>
+          <p>
+            In this case we call <m>L</m> the <term> limit of <m>f(x)</m> as <m>x</m> approaches negative infinity </term>, and write
+            <me>
+              \lim\limits_{x\to -\infty}f(x)=L
+            </me>.
+          </p>
+        </li>
+      </ul>
+    </statement>
+  </definition>
+  <definition xml:id="d_infinite_limit">
+    <title>Infinite limits</title>
+    <idx><h>limit</h><h>infinite</h></idx>
+    <statement>
+      <p>
+        Let <m>f</m> be a real-valued function with domain <m>D</m>.
+      </p>
+      <ul>
+        <li>
+          <title>Right-limit</title>
+          <p>
+            Suppose <m>D</m> contains an interval of the form <m>(c,d)</m>. We say <term><m>f(x)</m> approaches infinity as <m>x</m> approaches <m>c</m> from the right </term> if for all <m>N\in \mathbb{R}</m> there exists a <m>\delta>0</m> such that the following condition holds: whenever <m>x\in (c,c+\delta)</m>, we have <m>f(x)\in (N,\infty)</m>.
+          </p>
+          <p>
+            Similarly, we say <term><m>f(x)</m> approaches negative infinity as <m>x</m> approaches <m>c</m> from the right </term> if for all <m>N\in \mathbb{R}</m> there exists a <m>\delta>0</m> such that the following condition holds: whenever <m>x\in (c,c+\delta)</m>, we have <m>f(x)\in (-\infty, N)</m>.
+          </p>
+          <p>
+            We write
+            <me>
+              \lim\limits_{x\to c^+}f(x)=\infty \text{ or } \lim\limits_{x\to c^+}f(x)=-\infty
+            </me>
+            in these respective cases.
+
+          </p>
+        </li>
+        <li>
+          <title>Left-limit</title>
+          <p>
+            Suppose <m>D</m> contains an interval of the form <m>(b,c)</m>. We say <term><m>f(x)</m> approaches infinity as <m>x</m> approaches <m>c</m> from the left </term> if for all <m>N\in \mathbb{R}</m> there exists a <m>\delta>0</m> such that the following condition holds: whenever <m>x\in (c-\delta,c)</m>, we have <m>f(x)\in (N,\infty)</m>.
+          </p>
+          <p>
+            Similarly, we say <term><m>f(x)</m> approaches negative infinity as <m>x</m> approaches <m>c</m> from the right </term> if for all <m>N\in \mathbb{R}</m> there exists a <m>\delta>0</m> such that the following condition holds: whenever <m>x\in (c-\delta,c)</m>, we have <m>f(x)\in (-\infty, N)</m>.
+          </p>
+          <p>
+            We write
+            <me>
+              \lim\limits_{x\to c^-}f(x)=\infty \text{ or } \lim\limits_{x\to c^-}f(x)=-\infty
+            </me>
+            in these respective cases.
+
+          </p>
+        </li>
+      </ul>
+    </statement>
+  </definition>
 </section>
