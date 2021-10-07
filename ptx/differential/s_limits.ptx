@@ -54,6 +54,8 @@
       </p>
     </statement>
   </definition>
+
+
   <definition xml:id="d_limit_at_infinity">
     <title>Limits at infinity</title>
     <idx><h>limit</h><h>at infinity</h></idx>
@@ -91,6 +93,8 @@
       </ul>
     </statement>
   </definition>
+
+
   <definition xml:id="d_infinite_limit">
     <title>Infinite limits</title>
     <idx><h>limit</h><h>infinite</h></idx>
@@ -137,3 +141,58 @@
     </statement>
   </definition>
 </section>
+
+
+<definition xml:id="d_horizontal_asymptote">
+  <title>Horizontal asymptote</title>
+  <idx><h>asymptote</h><h>horizontal</h></idx>
+  <statement>
+    <p>
+    Let <m>f</m> be a real-valued function, and let <m>c \in \mathbb{R}</m>. We say that <term>the graph of <m>f</m> has a horizontal asymptote <m>y=c</m> </term> if either
+    <me>
+      \lim\limits_{x \to infty} f(x)=c \text{ or } \lim\limits_{x \to -infty} f(x)=c.
+    </me>
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="d_oblique_asymptote">
+  <title>Oblique asymptote</title>
+  <idx><h>asymptote</h><h>oblique</h></idx>
+  <statement>
+    <p>
+    Let <m>f</m> be a real-valued function, and let <m>y=mx+b</m> be a linear function. We say that <term>the graph of <m>f</m> has an oblique asymptote <m>y=mx+b</m></term> if either
+    <me>
+      \lim\limits_{x \to infty} \frac{f(x)}{mx+b}=1 \text{ or } \lim\limits_{x \to -infty} \frac{f(x)}{mx+b}=1.
+    </me>
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="d_asymptotic_behavior">
+  <title>Asymptotic behavior</title>
+  <statement>
+    <p>
+    Let <m>f</m> and <m>g</m> be real-valued functions. We say that <m>f</m> approaches <m>g</m> asymptotically if either
+    <me>
+      \lim\limits_{x \to infty} \frac{f(x)}{g(x)}=1 \text{ or } \lim\limits_{x \to -infty} \frac{f(x)}{g(x)}=1.
+    </me>
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="d_vertical_asymptote">
+  <title>Vertical asymptote</title>
+  <idx><h>asymptote</h><h>vertical</h></idx>
+  <statement>
+    <p>
+    Let <m>f</m> be a real-valued function, and let <m>c \in \mathbb{R}</m>. We say that <term>the graph of <m>f</m> has a vertical asymptote <m>x=c</m> </term> if either one-sided limit of <m>f</m> as <m>x</m> approaches <m>c</m> is infinite. That is, if either
+    <me>
+      \lim\limits_{x \to c^+} f(x)=\pm \infty \text{ or } \lim\limits_{x \to c^-} f(x)=\pm \infty.
+    </me>
+    </p>
+  </statement>
+</definition>
