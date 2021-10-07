@@ -1,0 +1,5 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="c_derivative">
+  <title>The derivative</title>
+  <xi:include  href="./s_derivative_at_point.ptx"/>
+  <!-- <xi:include  href="./s_derivative_of_function.ptx"/> -->
+</chapter>

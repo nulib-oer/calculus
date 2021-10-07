@@ -1,0 +1,18 @@
+<section xml:id="s_derivative_at_point">
+  <title>Derivative at a point</title>
+<definition xml:id="d_derivative_at_point">
+  <title>Derivative at an interior point</title>
+  <statement>
+    <p>
+      Let <m>f</m>  be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>, and let <m>c</m> be an interior point of <m>D</m>. The function <m>f</m> is <term>differentiable at <m>c</m></term> if
+      <me>
+      \lim_{x\to c}\frac{f(x)-f(c)}{x-c}
+      </me>
+      exists. When this is the case, we call the limit the <term>derivative of <m>f</m> at <m>c</m></term>, denoted <m>f'(c)</m>: <ie />,
+      <me>
+        f'(c)=\lim_{x\to c}\frac{f(x)-f(c)}{x-c}
+      </me>.
+    </p>
+  </statement>
+</definition>
+</section>
