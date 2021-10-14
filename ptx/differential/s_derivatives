@@ -1,2 +1,22 @@
 <section xml:id="s_derivatives">
   <title>Derivatives of functions</title>
+
+
+  <definition xml:id="d_differentiable_on_domain">
+    <title>Differentiable functions</title>
+    <statement>
+      <p>
+        Let <m>f</m>  be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>, and suppose <m>f</m> is differentiable at every interior point in <m>D</m>, and left- or right-differentiable at every endpoint of <m>D</m>. Then <m>f</m> is called <term>differentiable on its domain</term> (or simply <term>differentiable</term>).
+      </p>
+    </statement>
+  </definition>
+
+
+  <definition xml:id="d_derivative_on_a_domain">
+    <title>Derivative of a function on its domain</title>
+    <statement>
+      <p>
+        Let <m>f</m>  be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>, and suppose <m>f</m> is differentiable. Then we can define a real-valued function <m>f'(x):D \to \mathbb{R}</m> as follows.
+      </p>
+    </statement>
+  </definition>

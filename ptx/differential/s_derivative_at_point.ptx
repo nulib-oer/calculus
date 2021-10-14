@@ -1,5 +1,7 @@
 <section xml:id="s_derivative_at_point">
   <title>Derivative at a point</title>
+
+
 <definition xml:id="d_derivative_at_point">
   <title>Derivative at an interior point</title>
   <statement>
@@ -15,4 +17,36 @@
     </p>
   </statement>
 </definition>
+
+
+<definition xml:id="d_lrderivative">
+  <title>Left and right derivatives</title>
+  <statement>
+    <p>
+      Let <m>f</m>  be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>.
+    </p>
+    <ul>
+      <li>
+        <title>Left derivative at a point</title>
+        <p> Let <m>c\in D</m>, and suppose <m>D</m> contains an interval of the form <m>(b,c]</m>. We say <m>f</m> is <term>left-differentiable at <m>c</m></term> if
+        <me>
+        \lim_{x\to c^-}\frac{f(x)-f(c)}{x-c}
+        </me>
+         exists. When this is the case, we call the limit the <term>left derivative of <m>f</m> at <m>c</m></term>.
+       </p>
+      </li>
+      <li>
+        <title> Right derivative at a point</title>
+        <p> Let <m>c\in D</m>, and suppose <m>D</m> contains an interval of the form <m>[c,d)</m>. We say <m>f</m> is <term>right-differentiable at <m>c</m></term> if
+        <me>
+        \lim_{x\to c^+}\frac{f(x)-f(c)}{x-c}
+        </me>
+         exists. When this is the case, we call the limit the <term>right  derivative of <m>f</m> at <m>c</m></term>.
+       </p>
+      </li>
+    </ul>
+  </statement>
+</definition>
+
+
 </section>

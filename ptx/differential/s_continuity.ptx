@@ -24,7 +24,10 @@
     </p>
     </statement>
     </definition>
+
+
 <definition xml:id="d_leftright_continuity">
+  <title>Left and right continuity</title>
   <statement>
       <p>
       Let <m>f</m>  be a real-valued function with domain <m>D\subseteq \mathbb{R}</m>.
@@ -50,6 +53,8 @@
     </ul>
   </statement>
 </definition>
+
+
 <definition xml:id="d_continuity_at_endpoints">
   <title>Continuity at endpoints</title>
   <idx><h>continuity</h><h>at endpoints</h></idx>
