@@ -14,10 +14,20 @@
       <me>
         f'(c)=\lim_{x\to c}\frac{f(x)-f(c)}{x-c}
       </me>.
+      Equivalently, <m>f</m> is differentiable at <m>c</m> if
+      <me>
+      \lim_{h\to 0}\frac{f(c+h)-f(c)}{h}
+      </me>
+      exists, in which case we have
+      <me>
+        f'(c)=\lim_{x\to c}\frac{f(x)-f(c)}{x-c}=\lim_{h\to 0}\frac{f(c+h)-f(c)}{h}
+      </me>.
+
     </p>
   </statement>
 </definition>
 
+<remark>Explain relative virtues of both limit forms and that we will fluidly alternate between the two from here on out. </remark>
 
 <definition xml:id="d_lrderivative">
   <title>Left and right derivatives</title>
@@ -27,24 +37,28 @@
     </p>
     <ul>
       <li>
+        <title> Right derivative at a point</title>
+        <p> Let <m>c\in D</m>, and suppose <m>D</m> contains an interval of the form <m>[c,d)</m>. We say <m>f</m> is <term>left-differentiable at <m>c</m></term> if
+        <me>
+        \lim_{h\to 0^+}\frac{f(c+h)-f(c)}{h}
+        </me>
+         exists. When this is the case, we call the limit the <term>right derivative of <m>f</m> at <m>c</m></term>.
+       </p>
+      </li>
+      <li>
         <title>Left derivative at a point</title>
         <p> Let <m>c\in D</m>, and suppose <m>D</m> contains an interval of the form <m>(b,c]</m>. We say <m>f</m> is <term>left-differentiable at <m>c</m></term> if
         <me>
-        \lim_{x\to c^-}\frac{f(x)-f(c)}{x-c}
+        \lim_{h\to 0^-}\frac{f(c+h)-f(c)}{h}
         </me>
          exists. When this is the case, we call the limit the <term>left derivative of <m>f</m> at <m>c</m></term>.
        </p>
       </li>
-      <li>
-        <title> Right derivative at a point</title>
-        <p> Let <m>c\in D</m>, and suppose <m>D</m> contains an interval of the form <m>[c,d)</m>. We say <m>f</m> is <term>right-differentiable at <m>c</m></term> if
-        <me>
-        \lim_{x\to c^+}\frac{f(x)-f(c)}{x-c}
-        </me>
-         exists. When this is the case, we call the limit the <term>right  derivative of <m>f</m> at <m>c</m></term>.
-       </p>
-      </li>
+
     </ul>
+    <p>
+      In both cases, when the given <m>c</m> is an actual endpoint of <m>D</m> (<ie />, <m>c</m> is not an interior point of <m>D</m>) and the relevant left or right derivative exists, we say simply <m>f</m> is <term>differentiable at <m>c</m></term>. 
+    </p>
   </statement>
 </definition>
 

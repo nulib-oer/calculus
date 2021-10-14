@@ -1,0 +1,27 @@
+<section xml:id="s_derivatives">
+  <title>Derivative of a function</title>
+
+
+  <definition xml:id="d_differentiable_on_domain">
+    <title>Differentiable functions</title>
+    <statement>
+      <p>
+        Let <m>f</m> be a real-valued function whose domain <m>D</m> is a union of intervals. We say <m>f</m> is <term>differentiable on <m>D</m></term> (or simply <term>differentiable</term>) if it is differentiable at all points of <m>D</m>.
+      </p>
+    </statement>
+  </definition>
+
+
+  <definition xml:id="d_derivative_on_a_domain">
+    <title>Derivative of a function</title>
+    <statement>
+      <p>
+        Let <m>f</m>  be differentiable on its domain <m>D</m>, and assume <m>D</m> is a union of open intervals. The <term>derivative of <m>f</m></term> is the function
+        <me>
+          f'\colon D\rightarrow \mathbb{R}
+        </me>
+        that assigns to each input <m>x\in D</m> the derivative of <m>f</m> at <m>x</m>. (COMMENT: could possibly adapt to accommodate left- right endpoints).
+      </p>
+    </statement>
+  </definition>
+</section>
