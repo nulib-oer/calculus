@@ -6,7 +6,10 @@
     <title>Differentiable functions</title>
     <statement>
       <p>
-        Let <m>f</m> be a real-valued function whose domain <m>D</m> is a union of intervals. We say <m>f</m> is <term>differentiable on <m>D</m></term> (or simply <term>differentiable</term>) if it is differentiable at all points of <m>D</m>.
+        Let <m>f</m> be a real-valued function defined on a set <m>X</m>, where <m>X</m> is a union of intervals. We say <m>f</m> is <term>differentiable on <m>X</m></term> if it is differentiable at all points of <m>X</m>.
+      </p>
+      <p>
+        We say <m>f</m> is <term>differentiable</term> if it is differentiable on its entire domain.
       </p>
     </statement>
   </definition>
@@ -16,11 +19,20 @@
     <title>Derivative of a function</title>
     <statement>
       <p>
-        Let <m>f</m>  be differentiable on its domain <m>D</m>, and assume <m>D</m> is a union of open intervals. The <term>derivative of <m>f</m></term> is the function
-        <me>
-          f'\colon D\rightarrow \mathbb{R}
-        </me>
-        that assigns to each input <m>x\in D</m> the derivative of <m>f</m> at <m>x</m>. (COMMENT: could possibly adapt to accommodate left- right endpoints).
+        Let <m>f</m> be differentiable on <m>X</m>, where <m>X</m> is a union of intervals. The <term>derivative of <m>f</m> on <m>X</m></term> is the function
+        <md>
+          <mrow>f'\colon X \amp\rightarrow \mathbb{R} </mrow>
+          <mrow> x\amp\mapsto f'(x) </mrow>
+        </md>
+        that assigns to each input <m>x\in X</m> the derivative of <m>f</m> at <m>x</m>.
+      </p>
+    </statement>
+  </definition>
+  <definition xml:id="d_higher_order_derivatives">
+    <title>Higher order derivatives</title>
+    <statement>
+      <p>
+        Recursive definition?? 
       </p>
     </statement>
   </definition>

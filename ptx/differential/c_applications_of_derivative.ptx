@@ -1,0 +1,4 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="c_applications_of_derivative">
+  <title>Applications of the derivative</title>
+  <xi:include  href="./s_extrema.ptx"/>
+</chapter>

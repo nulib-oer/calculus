@@ -117,6 +117,15 @@
     </p>
   </statement>
 </definition>
+<definition xml:id="d_real_line_boundary_point">
+  <title>Boundary point</title>
+  <idx><h>boundary point</h></idx>
+  <statement>
+    <p>
+    Let <m>X \subseteq \mathbb{R}</m>. An element <m>c \in \mathbb{R}</m> is a <term>boundary point of <m>X</m></term> if every open interval containing <m>c</m> contains both elements of <m>X</m> and elements of its complement <m>\mathbb{R}-X</m>.
+    </p>
+  </statement>
+</definition>
 
 
 <definition xml:id="d_real_line_punctured_interval">

@@ -1,0 +1,18 @@
+<section xml:id="s_derivative_at_point">
+  <title>Extrema of functions</title>
+<definition xml:id="d_extrema">
+  <title>Extrema</title>
+  <statement>
+    <p>
+      Local and global extrema. Possibly define max on a set first, then define local max as max on open subset.
+    </p>
+  </statement>
+</definition>
+<definition xml:id="d_critical_points">
+  <title>Critical point</title>
+  <statement>
+    <p>
+
+    </p>
+  </statement>
+</definition>
