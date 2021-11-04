@@ -52,8 +52,7 @@
 
     </ul>
     <p>
-      ***Paragraph that follows mirrors definition of differentiability; possible streamlined version that obviates definition of endpoints that follows.***
-      In both cases, when the given <m>c</m> is a boundary point (**DEFINE BOUNDARY POINT***) of <m>D</m> (<ie />, <m>c</m> is not an interior point of <m>D</m>) and <m>f</m> satisfies the relevant left- or right-continuity condition, we say simply <m>f</m> is <term>continuous at <m>c</m></term>.
+      In both cases, when the given <m>c</m> is a boundary point of <m>D</m> (<ie />, <m>c</m> is not an interior point of <m>D</m>) and <m>f</m> satisfies the relevant left- or right-continuity condition, we say simply <m>f</m> is <term>continuous at <m>c</m></term>.
     </p>
   </statement>
 </definition>

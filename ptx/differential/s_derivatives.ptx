@@ -32,8 +32,26 @@
     <title>Higher order derivatives</title>
     <statement>
       <p>
-        Recursive definition?? 
+        Let <m>f</m> and <m>f'</m> be differentiable on the set <m>X</m>. The <term>second derivative of <m>f</m></term>, denoted <m>f''</m>, is the derivative of <m>f'</m>: <ie />,
+        <me>
+          f''=(f')'=\frac{d}{dx}(f')
+        </me>
+        for all <m>x\in X</m>.
       </p>
+      <p>
+        More generally, let <m>n\geq 1</m> be an integer. The <m>n</m>-th derivative of <m>f</m> is the function obtained from <m>f</m> by applying the derivative operation <m>n</m> times in succession, assuming the relevant derivatives all exist. For small <m>n</m> we denote the <m>n</m>-th derivative with prime notation: <eg />
+        <md>
+          <mrow> f' \amp=\frac{d}{dx}(f) </mrow>
+          <mrow>f''\amp=\frac{d}{dx}(f') </mrow>
+          <mrow> f'''\amp=\frac{d}{dx}(f'') </mrow>
+        </md>.
+        For larger <m>n</m> we denote the <m>n</m>-th derivative of <m>f</m> as <m>f^{(n)}</m>.
+      </p>
+      <p>
+        A function <m>f</m> is <term><m>n</m>-times differentiable</term> on <m>X</m> if the <m>n</m>-th derivative of <m>f</m> exists for all <m>x\in X</m>. The function <m>f</m> is <term><m>C^n</m> on <m>X</m></term> if <m>f^{(n)}</m> is continuous on <m>X</m>.  
+      </p>
+
+
     </statement>
   </definition>
 </section>

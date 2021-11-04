@@ -30,6 +30,7 @@
                 <xi:include href="./differential/c_sets_logic_reals.ptx"/>
                 <xi:include href="./differential/c_limits_continuity.ptx"/>
                 <xi:include href="./differential/c_derivative.ptx"/>
+                <xi:include href="./differential/c_applications_of_derivative.ptx"/>
 
         </part>
 

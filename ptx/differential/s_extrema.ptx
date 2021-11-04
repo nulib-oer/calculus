@@ -1,10 +1,21 @@
-<section xml:id="s_derivative_at_point">
+<section xml:id="s_extrema">
   <title>Extrema of functions</title>
 <definition xml:id="d_extrema">
   <title>Extrema</title>
   <statement>
     <p>
-      Local and global extrema. Possibly define max on a set first, then define local max as max on open subset.
+      <ul>
+      <li>
+        <title>Maximum value on <m>X</m></title>
+        <p>
+          Let <m>f</m> be defined on <m>X</m>. A <term>maximum value of <m>f</m> on <m>X</m></term> is a number <m>c\in \mathbb{R}</m> such that <m>f(x_0)=c</m> for some <m>x_0\in X</m>, and
+          <me>
+            f(x)\leq c
+          </me>
+          for all <m>x\in X</m>.
+        </p>
+      </li>
+    </ul>
     </p>
   </statement>
 </definition>
@@ -16,3 +27,4 @@
     </p>
   </statement>
 </definition>
+</section>

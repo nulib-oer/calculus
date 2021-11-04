@@ -57,7 +57,7 @@
 
     </ul>
     <p>
-      In both cases, when the given <m>c</m> is a boundary point (***DEFINE boundary point***) of <m>D</m> (<ie />, <m>c</m> is not an interior point of <m>D</m>) and the relevant left or right derivative exists, we say simply <m>f</m> is <term>differentiable at <m>c</m></term>.
+      In both cases, when the given <m>c</m> is a boundary point of <m>D</m> (<ie />, <m>c</m> is not an interior point of <m>D</m>) and the relevant left or right derivative exists, we say simply <m>f</m> is <term>differentiable at <m>c</m></term>.
     </p>
   </statement>
 </definition>
