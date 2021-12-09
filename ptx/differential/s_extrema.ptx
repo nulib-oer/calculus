@@ -3,19 +3,34 @@
 <definition xml:id="d_extrema">
   <title>Extrema</title>
   <statement>
-    <p>
+    <p> Let <m>f</m> be defined on the set <m>X\subseteq \mathbb{R}</m>.
       <ul>
       <li>
         <title>Maximum value on <m>X</m></title>
         <p>
-          Let <m>f</m> be defined on <m>X</m>. A <term>maximum value of <m>f</m> on <m>X</m></term> is a number <m>c\in \mathbb{R}</m> such that <m>f(x_0)=c</m> for some <m>x_0\in X</m>, and
-          <me>
-            f(x)\leq c
-          </me>
-          for all <m>x\in X</m>.
+           The function <m>f</m> has a <term>maximum</term> at <m>x_0\in X</m> if <m>f(x)\leq f(x_0)</m> for all <m>x\in X</m>. We call <m>f(x_0)</m> the <term>maximum value</term> of <m>f</m> on <m>X</m>.
         </p>
       </li>
-    </ul>
+      <li>
+        <title>Minimum value on <m>X</m></title>
+        <p>
+           The function <m>f</m> has a <term>minimum</term> at <m>x_0\in X</m> if <m>f(x)\geq f(x_0)</m> for all <m>x\in X</m>. We call <m>f(x_0)</m> the <term>minimum value</term> of <m>f</m> on <m>X</m>.
+        </p>
+      </li>
+      <li>
+        <title>Local maximum value on <m>X</m></title>
+        <p>
+           The function <m>f</m> has a <term>local maximum</term> at <m>x_0\in X</m> if there is an open interval <m>I\subseteq X</m> such that <m>f(x_0)</m> is the maximum value of <m>f</m> on <m>I</m>. We call <m>f(x_0)</m> a <term>local maximum value</term> of <m>f</m> on <m>X</m>.
+        </p>
+      </li>
+      <li>
+        <title>Local minimum value on <m>X</m></title>
+        <p>
+           The function <m>f</m> has a <term>local minimum</term> at <m>x_0\in X</m> if there is an open interval <m>I\subseteq X</m> such that <m>f(x_0)</m> is the minimum value of <m>f</m> on <m>I</m>. We call <m>f(x_0)</m> a <term>local minimum value</term> of <m>f</m> on <m>X</m>.
+        </p>
+      </li>
+      </ul>
+      We say <m>f</m> has an <term>extreme value</term> at <m>x_0\in X</m> if <m>f(x_0)</m> is a maximum or minimum value of <m>f</m> on <m>X</m>, local or otherwise. In such cases we call the point <m>(x_0, f(x_0))</m> on the graph of <m>f</m> an <term>extremum</term> of <m>f</m>. 
     </p>
   </statement>
 </definition>
