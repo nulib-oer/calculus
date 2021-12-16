@@ -19,12 +19,12 @@
     <title>Derivative of a function</title>
     <statement>
       <p>
-        Let <m>f</m> be differentiable on <m>X</m>, where <m>X</m> is a union of intervals. The <term>derivative of <m>f</m> on <m>X</m></term> is the function
+        Let <m>f</m> be differentiable on <m>X</m>. The <term>derivative of <m>f</m> on <m>X</m></term> is the function
         <md>
           <mrow>f'\colon X \amp\rightarrow \mathbb{R} </mrow>
           <mrow> x\amp\mapsto f'(x) </mrow>
         </md>
-        that assigns to each input <m>x\in X</m> the derivative of <m>f</m> at <m>x</m>.
+        that assigns the value <m>f'(x)</m> to each input <m>x\in X</m>.
       </p>
     </statement>
   </definition>
@@ -32,23 +32,18 @@
     <title>Higher order derivatives</title>
     <statement>
       <p>
-        Let <m>f</m> and <m>f'</m> be differentiable on the set <m>X</m>. The <term>second derivative of <m>f</m></term>, denoted <m>f''</m>, is the derivative of <m>f'</m>: <ie />,
-        <me>
-          f''=(f')'=\frac{d}{dx}(f')
-        </me>
-        for all <m>x\in X</m>.
+        Given a function <m>f</m> and an integer <m>n\geq 2</m> the <term><m>n</m>-th derivative of <m>f</m></term> is defined recursively as the derivative of the <m>(n-1)</m>-th derivative of <m>f</m>.
       </p>
-      <p>
-        More generally, let <m>n\geq 1</m> be an integer. The <m>n</m>-th derivative of <m>f</m> is the function obtained from <m>f</m> by applying the derivative operation <m>n</m> times in succession, assuming the relevant derivatives all exist. For small <m>n</m> we denote the <m>n</m>-th derivative with prime notation: <eg />
+      <p> For small values of <m>n</m> it is customary to denote the <m>n</m>-th derivative with prime notation: <eg />
         <md>
-          <mrow> f' \amp=\frac{d}{dx}(f) </mrow>
-          <mrow>f''\amp=\frac{d}{dx}(f') </mrow>
-          <mrow> f'''\amp=\frac{d}{dx}(f'') </mrow>
+          <mrow> n=1\amp\colon f' =\frac{d}{dx}(f) </mrow>
+          <mrow>n=2\amp\colon f''=\frac{d}{dx}(f') </mrow>
+          <mrow> n=3\colon f'''=\frac{d}{dx}(f'') </mrow>
         </md>.
-        For larger <m>n</m> we denote the <m>n</m>-th derivative of <m>f</m> as <m>f^{(n)}</m>.
+      Otherwise we denote the <m>n</m>-th derivative of <m>f</m> as <m>f^{(n)}</m>.
       </p>
       <p>
-        A function <m>f</m> is <term><m>n</m>-times differentiable</term> on <m>X</m> if the <m>n</m>-th derivative of <m>f</m> exists for all <m>x\in X</m>. The function <m>f</m> is <term><m>C^n</m> on <m>X</m></term> if <m>f^{(n)}</m> is continuous on <m>X</m>.  
+        Let <m>X</m> be a union of intervals in the domain of <m>f</m>. We say <m>f</m> is <term><m>n</m>-times differentiable</term> if the <m>k</m>-th derivative <m>f^{(k)}</m> exists on <m>X</m> for all <m>k\leq n</m>. We say <m>f</m> is <term><m>C^n</m> on <m>X</m></term> if <m>f^{(n)}</m> is continuous on <m>X</m>.
       </p>
 
 
