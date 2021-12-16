@@ -36,14 +36,14 @@
       </p>
       <p> For small values of <m>n</m> it is customary to denote the <m>n</m>-th derivative with prime notation: <eg />
         <md>
-          <mrow> n=1\amp\colon f' =\frac{d}{dx}(f) </mrow>
-          <mrow>n=2\amp\colon f''=\frac{d}{dx}(f') </mrow>
-          <mrow> n=3\colon f'''=\frac{d}{dx}(f'') </mrow>
+          <mrow> f' \amp=\frac{d}{dx}(f) \amp \text{(first derivative)}</mrow>
+          <mrow> f''\amp=\frac{d}{dx}(f') \amp \text{(second derivative)}</mrow>
+          <mrow> f'''\amp=\frac{d}{dx}(f'') \amp \text{(third derivative)}</mrow>
         </md>.
-      Otherwise we denote the <m>n</m>-th derivative of <m>f</m> as <m>f^{(n)}</m>.
+      For larger values of <m>n</m> we denote the <m>n</m>-th derivative of <m>f</m> as <m>f^{(n)}</m>.
       </p>
       <p>
-        Let <m>X</m> be a union of intervals in the domain of <m>f</m>. We say <m>f</m> is <term><m>n</m>-times differentiable</term> if the <m>k</m>-th derivative <m>f^{(k)}</m> exists on <m>X</m> for all <m>k\leq n</m>. We say <m>f</m> is <term><m>C^n</m> on <m>X</m></term> if <m>f^{(n)}</m> is continuous on <m>X</m>.
+        Let <m>X</m> be a union of intervals in the domain of <m>f</m>. We say <m>f</m> is <term><m>n</m>-times differentiable</term> on <m>X</m> if the <m>k</m>-th derivative <m>f^{(k)}</m> exists on <m>X</m> for all <m>k\leq n</m>. We say <m>f</m> is <term><m>C^n</m> on <m>X</m></term> if <m>f</m> is <m>n</m>-times differentiable on <m>X</m> and <m>f^{(n)}</m> is continuous on <m>X</m>.
       </p>
 
 
