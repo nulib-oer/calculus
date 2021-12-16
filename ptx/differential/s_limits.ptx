@@ -187,11 +187,89 @@
   <idx><h>asymptote</h><h>vertical</h></idx>
   <statement>
     <p>
-    Let <m>f</m> be a real-valued function, and let <m>c \in \mathbb{R}</m>. The line with equation <m>x=c</m> is a <term>vertical asymptote of the graph of <m>f</m></term> if 
+    Let <m>f</m> be a real-valued function, and let <m>c \in \mathbb{R}</m>. The line with equation <m>x=c</m> is a <term>vertical asymptote of the graph of <m>f</m></term> if
     <me>
       \lim\limits_{x \to c^+} f(x)=\pm \infty \text{ or } \lim\limits_{x \to c^-} f(x)=\pm \infty.
     </me>
     </p>
   </statement>
 </definition>
+
+
+<!-- Limit Theorems -->
+
+<theorem xml:id="t_limit_laws">
+  <title>Limit Laws</title>
+  <statement>
+    <p> Let <m>f</m> and <m>g</m> be real-valued functions, let <m>c, L, M \in \mathbb{R}</m>, and suppose
+    <me>
+      \lim\limits_{x\to c}f(x)=L \text{ and } \lim\limits_{x\to c}g(x)=M.
+    </me>
+    Then
+    <ul>
+      <li>
+        <p>
+          <m>\lim\limits_{x\to c}(f(x)+g(x))=L+M</m>, and
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\lim\limits_{x\to c}f(x)\cdot g(x)=L\cdot M</m>.
+        </p>
+      </li>
+    </ul>
+    These results immediately imply other useful properties of limits. Let <m>f,g,c,L, \text{ and } M</m> be as above. Then the following hold:
+    <ul>
+      <li>
+        <p>
+          <m>\lim\limits_{x\to c}k\cdot f(x)=k\cdot L</m> for any <m>k \in \mathbb{R}</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\lim\limits_{x\to c}(f(x)-g(x))=L-M</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\lim\limits_{x\to c}\frac{f(x)}{g(x)}=\frac{L}{M}</m>, provided that <m>M\neq 0</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>\lim\limits_{x\to c}[f(x)]^n=L^n</m> for any positive integer <m>n</m>.
+        </p>
+      </li>
+    </ul>
+    </p>
+  </statement>
+</theorem>
+
+<!-- as a corollary to the above we have limits for f-g, kf, f/g=f*1/g, f^n -->
+
+<theorem xml:id="t_limits_polynomials_and_rational_functions">
+  <statement>
+    <p>
+      Let <m>p(x)</m> and <m>q(x)</m> be polynomials, and let <m>c \in \mathbb{R}</m>. Then
+      <ul>
+        <li>
+          <p>
+            <m>\lim\limits_{x\to c}p(x)=p(c)</m>, and
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\lim\limits_{x\to c}\frac{p(x)}{q(x)}=\frac{p(c)}{q(c)}</m>, provided that <m>q(c)\neq 0</m>.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </statement>
+</theorem>
+
+
+
+
+
+
 </section>
