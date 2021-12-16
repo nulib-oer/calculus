@@ -245,7 +245,6 @@
   </statement>
 </theorem>
 
-<!-- as a corollary to the above we have limits for f-g, kf, f/g=f*1/g, f^n -->
 
 <theorem xml:id="t_limits_polynomials_and_rational_functions">
   <statement>
