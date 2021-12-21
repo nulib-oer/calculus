@@ -1,7 +1,7 @@
 <section xml:id="s_functions">
   <title>Functions of sets</title>
 
-  <definition xml:id="d_functions_function">
+  <definition xml:id="d_function">
     <title>Functions</title>
     <idx><h>function</h></idx>
     <notation>
@@ -16,41 +16,54 @@
         The set <m>A</m> is called the <term>domain</term> of <m>f</m>; the set <m>B</m> is called the <term>codomain</term> of <m>f</m>.
       </p>
       <p>
-        When we wish to indicate what rule defines the function, we use the elaborated notation
+        When we wish to say more about the rule that defines the function, we use the elaborated notation
         <md>
           <mrow>f\colon A \amp\rightarrow B </mrow>
           <mrow> a \amp\mapsto f(a)</mrow>
         </md>.
-        This is read as <q>The function <m>f</m> from <m>A</m> to <m>B</m> maps an input <m>a</m> to the output <m>f(a)</m></q>.
+        This is read as <q>The function <m>f</m> with domain <m>A</m> and codomain <m>B</m> maps an input <m>a</m> to the output <m>f(a)</m></q>.
       </p>
     </statement>
   </definition>
-
-
-  <definition xml:id="d_functions_function_equality">
-    <title>Function equality</title>
-    <idx><h>function</h><h>equality</h></idx>
+  <example>
     <statement>
       <p>
-      Functions <m>f</m> and <m>g</m> are <term>equal</term> if
-      <ol label="i">
-        <li>
-          <p>
-            they have the same domain <m>A</m> and codomain <m>B</m>, and
-          </p>
-        </li>
-        <li>
-          <p>
-            for all <m>a\in A</m>, we have <m>f(a)=g(a)</m>.
-          </p>
-        </li>
-      </ol>
+        Consider the function
+        <md>
+          <mrow>f\colon \mathbb{Z}\amp \rightarrow \mathbb{Z}</mrow>
+          <mrow> x\amp\mapsto x^2 </mrow>
+        </md>.
+        This function has domain and codomain equal to <m>\mathbb{Z}</m> and maps an integer to its square.
       </p>
     </statement>
-  </definition>
+  </example>
+  <example>
+    <title>Arithmetic operations as functions</title>
+    <statement>
+      <p>
+        Our familiar arithmetic operations can be expressed as functions whose inputs are pairs of numbers: addition is the function
+        <md>
+          <mrow>a\colon \R\times \R \amp \R </mrow>
+          <mrow> (x,y) \amp\mapsto x+y </mrow>
+        </md>
+        and multiplication is the function
+        <md>
+          <mrow>m\colon\mathbb{R}\times \mathbb{R} \amp \rightarrow \mathbb{R}</mrow>
+          <mrow> (x,y)\amp\mapsto  xy </mrow>
+        </md>
+      </p>
+    </statement>
+    <solution>
+      <p>
 
+      </p>
+    </solution>
+  </example>
+<p>
+As with sets and tuples, we are obliged to specify what we mean for two functions to be equal. The definition below makes clear how the the domain and codomain, as well as the rule that takes inputs to outputs, are all essential ingredients of a function.
+</p>
 
-  <definition xml:id="d_functions_image">
+  <definition xml:id="d_image">
     <title>Image of a set</title>
     <idx><h>function</h><h>image of a set</h></idx>
     <idx><h>function</h><h>image</h></idx>
@@ -81,7 +94,7 @@
   </definition>
 
 
-  <definition xml:id="d_functions_preimage">
+  <definition xml:id="d_preimage">
     <title>Preimage</title>
     <idx><h>function</h><h>preimage of an element</h></idx>
     <idx><h>function</h><h>preimage of a set</h></idx>
@@ -104,7 +117,7 @@
   </definition>
 
 
-  <definition xml:id="d_functions_function_composition">
+  <definition xml:id="d_function_composition">
     <title>Function composition</title>
     <idx><h>function</h><h>composition</h></idx>
     <notation>
