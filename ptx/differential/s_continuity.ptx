@@ -95,4 +95,58 @@
       </p>
     </statement>
   </definition>
+
+
+<!-- continuity theorems -->
+
+
+<theorem xml:id="th_continuity_laws">
+  <title>Continuity Laws</title>
+  <statement>
+    <p> Let <m>f</m> and <m>g</m> be real-valued functions which are both continuous at a point <m>c \in \mathbb{R}</m>. Then the following hold:
+    <ol>
+      <li>
+      <title>Sum law</title>
+      <p>
+        <m>\lim\limits_{x\to c}(f(x)+g(x))=\lim\limits_{x\to c}f(x)+\lim\limits_{x\to c}g(x)
+        </m>
+      </p>
+      </li>
+      <li>
+        <title>Difference law</title>
+        <p>
+          <m>\lim\limits_{x\to c}(f(x)-g(x))=\lim\limits_{x\to c}f(x)-\lim\limits_{x\to c}g(x)</m>.
+        </p>
+      </li>
+      <li>
+        <title>Scalar product law</title>
+          <p>
+            <m>\lim\limits_{x\to c}kf(x)=k\lim\limits_{x\to c}f(x)</m> for any <m>k \in \mathbb{R}</m>.
+          </p>
+        </li>
+      <li>
+        <title>Product law</title>
+        <p>
+          <m>\lim\limits_{x\to c}f(x)g(x)=\lim\limits_{x\to c}f(x)\cdot \lim\limits_{x\to c}g(x)</m>.
+        </p>
+      </li>
+        <li>
+          <title>Quotient law</title>
+          <p>
+            <m>\displaystyle\lim\limits_{x\to c}\frac{f(x)}{g(x)}=\frac{\lim\limits_{x\to c}f(x)}{\lim\limits_{x\to c}g(x)}</m>, provided that <m>\lim\limits_{x\to c}g(x)\neq 0</m>.
+          </p>
+        </li>
+        <li>
+          <title>Power law</title>
+          <p>
+            <m>\lim\limits_{x\to c}[f(x)]^n=\left[\lim\limits_{x\to c}f(x)\right]^n</m> for any positive integer <m>n</m>.
+          </p>
+        </li>
+    </ol>
+    </p>
+  </statement>
+</theorem>
+
+
+
 </section>
