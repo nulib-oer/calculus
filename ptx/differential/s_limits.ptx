@@ -285,7 +285,7 @@
 
     <statement>
       <p>
-        Suppose <m>\lim_{x\to c}f(x)</m> exists. Let <m>x=g(t)</m> be a function satisfying <m>\lim_{t\to d }g(t)=c</m>. Then
+        Suppose <m>\lim\limits_{x\to c}f(x)</m> exists. Let <m>x=g(t)</m> be a function satisfying <m>\lim\limits_{t\to d }g(t)=c</m>. Then
         <me>
           \lim_{t\to d}f(g(t))=\lim_{x\to c}f(x)
         </me>.
@@ -297,8 +297,8 @@
     <title>The squeeze theorem</title>
     <statement>
       <p>
-        Let <m>I</m> be an open interval containing <m>c\in \mathbb{R}</m>, and let <m>g,f, \text{ and } h</m> be real valued functions defined on the punctured interval <m>I-\{c\}</m>. Suppose the following hold:
-        <ul>
+        Let <m>I</m> be an open interval containing <m>c\in \mathbb{R}</m>, and let <m>g,f, \text{ and } h</m> be real valued functions defined on the punctured interval <m>I-\{c\}</m>. If
+        <!-- <ol label="i">
           <li>
             <p>
               <m>g(x) \leq f(x) \leq h(x)</m> for each <m>x \in I-\{c\}</m>, and
@@ -306,36 +306,56 @@
           </li>
           <li>
             <p>
-              <m>\lim\limits_{x \to c}g(x)=\lim\limits_{x \to c}h(x)=L</m>.
+              <m>\lim\limits_{x \to c}g(x)=\lim\limits_{x \to c}h(x)=L</m>,
             </p>
-        </ul>
-        Then <m>\lim\limits_{x \to c}f(x)=L</m>.
+          </li>
+        </ol> -->
+        <men xml:id="eq_squeeze_condtion_A">
+          g(x) \leq f(x) \leq h(x)
+        </men>
+        for each <m>x \in I-\{c\}</m>, and
+        <men xml:id="eq_squeeze_condtion_B" label="star">
+          \lim\limits_{x \to c}g(x)=\lim\limits_{x \to c}h(x)=L
+        </men>,
+        then
+        <men>
+          \lim\limits_{x \to c}f(x)=L
+        </men>.
       </p>
     </statement>
   </theorem>
 
 
   <theorem xml:id="th_sine_cosine_limits">
+    <title>Classic trigonometric limits</title>
     <statement>
       <p>
-      We have
-      <me>
-        \lim\limits_{x \to 0} \frac{\sin x}{x}=1 \text{ and } \lim\limits_{x \to 0} \frac{\cos x -1}{x}=0.
-      </me>
+      The following limit formulas hold:
+      <ol>
+        <li>
+          <p>
+            <m>\displaystyle\lim\limits_{x \to 0} \frac{\sin x}{x}=1</m>;
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\displaystyle\lim\limits_{x \to 0} \frac{\cos x -1}{x}=0</m>.
+          </p>
+        </li>
+      </ol>
       </p>
     </statement>
   </theorem>
 
 
 <theorem xml:id="th_left_right_limits_agree">
+  <title>Equivalent formulation of limit</title>
+
   <statement>
     <p>
-    Let <m>f</m> be a real-valued function, and let <m>c \in \mathbb{R}</m>. Then the limit of <m>f</m> as <m>x</m> approaches <m>c</m> exists if and only if both the one-sided limits of <m>f</m> as <m>x</m> approaches <m>c</m> exist and are equal.
-
-    In logical shorthand:
-    <me>
-      \lim\limits_{x\to c}f(x)=L \longleftrightarrow \lim\limits_{x\to c^-}f(x)=L \text{ and } \lim\limits_{x\to c^+}f(x)=L.
-    </me>
+    Suppose <m>f</m> is defined on a punctured interval about <m>c</m>. We have <me>\lim\limits_{x\to c}f(x)=L \text{ if and only if } \lim\limits_{x\to c^-}f(x)=\lim\limits_{x\to c^+}f(x)=L
+    </me>.
+    In other words, the two-sided limit exists and is equal to <m>L</m> precisely when both one-sided limits exist and are equal to <m>L</m>.
     </p>
   </statement>
 </theorem>

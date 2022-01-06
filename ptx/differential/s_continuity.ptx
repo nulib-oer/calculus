@@ -101,51 +101,70 @@
 
 
 <theorem xml:id="th_continuity_laws">
-  <title>Continuity Laws</title>
+  <title>Properties of continuous functions</title>
   <statement>
-    <p> Let <m>f</m> and <m>g</m> be real-valued functions which are both continuous at a point <m>c \in \mathbb{R}</m>. Then the following hold:
-    <ol>
-      <li>
-      <title>Sum law</title>
-      <p>
-        <m>\lim\limits_{x\to c}(f(x)+g(x))=\lim\limits_{x\to c}f(x)+\lim\limits_{x\to c}g(x)
-        </m>
-      </p>
-      </li>
-      <li>
-        <title>Difference law</title>
-        <p>
-          <m>\lim\limits_{x\to c}(f(x)-g(x))=\lim\limits_{x\to c}f(x)-\lim\limits_{x\to c}g(x)</m>.
-        </p>
-      </li>
-      <li>
-        <title>Scalar product law</title>
-          <p>
-            <m>\lim\limits_{x\to c}kf(x)=k\lim\limits_{x\to c}f(x)</m> for any <m>k \in \mathbb{R}</m>.
-          </p>
-        </li>
-      <li>
-        <title>Product law</title>
-        <p>
-          <m>\lim\limits_{x\to c}f(x)g(x)=\lim\limits_{x\to c}f(x)\cdot \lim\limits_{x\to c}g(x)</m>.
-        </p>
-      </li>
+    <p>
+      Continuity is preserved by our elementary function operations. In other words, if <m>f</m> and <m>g</m> are continuous at <m>c</m>, then so are the following functions:
+      <dl>
         <li>
-          <title>Quotient law</title>
+          <title>Addition</title>
           <p>
-            <m>\displaystyle\lim\limits_{x\to c}\frac{f(x)}{g(x)}=\frac{\lim\limits_{x\to c}f(x)}{\lim\limits_{x\to c}g(x)}</m>, provided that <m>\lim\limits_{x\to c}g(x)\neq 0</m>.
+            <m>f+g</m>
           </p>
         </li>
         <li>
-          <title>Power law</title>
+        <title>Subtraction</title>
+        <p>
+          <m>f-g</m>
+        </p>
+      </li>
+        <li>
+          <title>Scalar product</title>
           <p>
-            <m>\lim\limits_{x\to c}[f(x)]^n=\left[\lim\limits_{x\to c}f(x)\right]^n</m> for any positive integer <m>n</m>.
+            <m>k\, f</m>, where <m>k\in \mathbb{R}</m> is any constant
           </p>
         </li>
-    </ol>
+        <li>
+          <title>Product</title>
+          <p>
+            <m>f\, g</m>
+          </p>
+        </li>
+        <li>
+          <title>Quotient</title>
+          <p>
+            <m>f/g</m>, provided <m>g(c)\ne 0</m>
+          </p>
+        </li>
+        <li>
+          <title>Power</title>
+          <p>
+            <m>f^n</m>, where <m>n</m> is any positive integer.
+          </p>
+        </li>
+      </dl>
     </p>
   </statement>
 </theorem>
+<theorem xml:id="th_continuous_composition">
+  <title>Continuous composition limit law</title>
+  <statement>
+    <p>
+      Let <m>f</m> be continuous at <m>c</m>. If <m>\lim_{x\to d}g(x)=c</m>, then
+      <me>
+        \lim_{x\to d}f(g(x))=f\left( \lim_{x\to d}g(x)\right)=f(c)
+      </me>.
+    </p>
+  </statement>
+</theorem>
+<corollary xml:id="cor_continuous_composition">
+  <title>Continuous composition</title>
+  <statement>
+    <p>
+      If <m>g</m> is continuous at <m>c</m> and <m>f</m> is continuous at <m>g(c)</m>, then <m>f\circ g</m> is continuous at <m>c</m>.
+    </p>
+  </statement>
+</corollary>
 
 
 
