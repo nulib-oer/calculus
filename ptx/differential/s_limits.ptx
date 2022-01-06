@@ -35,7 +35,7 @@
         x \in (c,c+\delta) \implies f(x) \in (L-\epsilon,L+\epsilon)
       </me>.
 
-      In this case we call <m>L</m> the <term> limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> </term>, and write
+      In this case we call <m>L</m> the <term> limit of <m>f(x)</m> as <m>x</m> approaches <m>c</m> from the right</term>, and write
       <me>
         \lim\limits_{x\to c^+}f(x)=L
       </me>.
@@ -278,6 +278,8 @@
     </p>
   </statement>
   </corollary>
+
+
   <theorem xml:id="th_limit_composition">
     <title>Composition law for limits</title>
 
@@ -290,6 +292,55 @@
       </p>
     </statement>
   </theorem>
+
+  <theorem xml:id="th_squeeze_theorem">
+    <title>The squeeze theorem</title>
+    <statement>
+      <p>
+        Let <m>I</m> be an open interval containing <m>c\in \mathbb{R}</m>, and let <m>g,f, \text{ and } h</m> be real valued functions defined on the punctured interval <m>I-\{c\}</m>. Suppose the following hold:
+        <ul>
+          <li>
+            <p>
+              <m>g(x) \leq f(x) \leq h(x)</m> for each <m>x \in I-\{c\}</m>, and
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>\lim\limits_{x \to c}g(x)=\lim\limits_{x \to c}h(x)=L</m>.
+            </p>
+        </ul>
+        Then <m>\lim\limits_{x \to c}f(x)=L</m>.
+      </p>
+    </statement>
+  </theorem>
+
+
+  <theorem xml:id="th_sine_cosine_limits">
+    <statement>
+      <p>
+      We have
+      <me>
+        \lim\limits_{x \to 0} \frac{\sin x}{x}=1 \text{ and } \lim\limits_{x \to 0} \frac{\cos x -1}{x}=0.
+      </me>
+      </p>
+    </statement>
+  </theorem>
+
+
+<theorem xml:id="th_left_right_limits_agree">
+  <statement>
+    <p>
+    Let <m>f</m> be a real-valued function, and let <m>c \in \mathbb{R}</m>. Then the limit of <m>f</m> as <m>x</m> approaches <m>c</m> exists if and only if both the one-sided limits of <m>f</m> as <m>x</m> approaches <m>c</m> exist and are equal.
+
+    In logical shorthand:
+    <me>
+      \lim\limits_{x\to c}f(x)=L \longleftrightarrow \lim\limits_{x\to c^-}f(x)=L \text{ and } \lim\limits_{x\to c^+}f(x)=L.
+    </me>
+    </p>
+  </statement>
+</theorem>
+
+
 
 
 
