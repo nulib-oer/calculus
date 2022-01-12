@@ -44,7 +44,7 @@ The book's compiliation is managed in the `index.xml` file. Any new chapters nee
 
 Save your edits in your text editor as you would normally (e.g. Control + S).
 
-## Generate HTML from PreTeXt source
+## Generate HTML with XSLTPROC
 
 The `xsltproc` command requires two arguments to generate HTML from PreTeXt/XMl source. The first argument is a relative path to an `.xsl` file in the `pretext/` folder that manages the transformation from XML to HTML, and the second argument is the XML file you'd like to transform. 
 
@@ -64,6 +64,14 @@ Here's the full command for building the _Single-variable Calculus_ book:
 ```
 xsltproc -xinclude -o ./single-variable/public/ pretext/xsl/pretext-html.xsl single-variable/quickstart.xml
 ```
+
+## Generate HTML with PreTeXt CLI
+
+_See: [Documentation](https://pretextbook.org/doc/guide/html/quickstart-getting-pretext.html)_
+
+- Install PreTeXt CLI (requires Python 3.8 or higher): `pip install pretextbook`
+- To build the html files, run: `prextext build html`
+- To preview the html files in a browser, run `pretext preview html` then visit http://localhost:8000
 
 ## Contribute Edits Back to the Project
 
