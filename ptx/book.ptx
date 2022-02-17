@@ -31,6 +31,7 @@
                 <xi:include href="./differential/c_limits_continuity.ptx"/>
                 <xi:include href="./differential/c_derivative.ptx"/>
                 <xi:include href="./differential/c_applications_of_derivative.ptx"/>
+                <xi:include href="./differential/c_continuity.ptx"/>
 
         </part>
 
