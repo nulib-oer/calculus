@@ -173,9 +173,15 @@
 
   <statement>
     <p>
-    Let <m>f</m> be continuous on an interval <m> [a,b] </m>, and let <m>y_0</m> be any value with either <m>f(a) < y_0 < f(b)</m> or <m> f(b) < y_0 < f(a) </m>. Then there exists a value <m>x_0 \in (a,b)</m> such that <m>f(x_0)=y_0</m>.
+    Let <m>f</m> be continuous on an interval <m> [a,b] </m>, then the image of <m>f</m> includes all values between <m>f(a)</m> and <m>f(b)</m>: <ie />, given any value <m>y</m> between <m>f(a)</m> and <m>f(b)</m>, there is an <m>x\in [a,b]</m> such that <m>f(x)=y</m>.
     </p>
   </statement>
 </theorem>
+<remark>
+<p>
+The use of <q>between</q> here glosses over some distinct cases: <ie />, <m>f(a)\lt f(b)</m>, <m>f(a)\gt f(b)</m>, <m>f(a)=f(b)</m>. 
+</p>
+</case>
+</remark>
 
 </section>
