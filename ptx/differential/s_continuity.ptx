@@ -166,11 +166,9 @@
   </statement>
 </corollary>
 
-<!-- Continuity Theorems -->
 
 <theorem xml:id="th_intermediate_value_theorem">
   <title>The Intermediate Value Theorem</title>
-
   <statement>
     <p>
     Let <m>f</m> be continuous on an interval <m> [a,b] </m>, then the image of <m>f</m> includes all values between <m>f(a)</m> and <m>f(b)</m>: <ie />, given any value <m>y</m> between <m>f(a)</m> and <m>f(b)</m>, there is an <m>x\in [a,b]</m> such that <m>f(x)=y</m>.
