@@ -166,11 +166,9 @@
   </statement>
 </corollary>
 
-<!-- Continuity Theorems -->
 
 <theorem xml:id="th_intermediate_value_theorem">
   <title>The Intermediate Value Theorem</title>
-
   <statement>
     <p>
     Let <m>f</m> be continuous on an interval <m> [a,b] </m>, and let <m>y_0</m> be any value with either <m>f(a) < y_0 < f(b)</m> or <m> f(b) < y_0 < f(a) </m>. Then there exists a value <m>x_0 \in (a,b)</m> such that <m>f(x_0)=y_0</m>.
