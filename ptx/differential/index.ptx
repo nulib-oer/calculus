@@ -27,7 +27,8 @@
         </frontmatter>
         <part>
             <title>Differential</title>
-                <xi:include href="./c_limits.ptx"/>
+                <xi:include href="./c_sets_logic_reals.ptx"/>
+                <xi:include href="./c_limits_continuity.ptx"/>
 
         </part>
 

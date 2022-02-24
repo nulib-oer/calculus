@@ -88,10 +88,10 @@
   </statement>
 </definition>
   <definition xml:id="d_continuous">
-    <title>Continuous</title>
+    <title>Continuity on an interval</title>
     <statement>
       <p>
-        Let <m>f</m> be a real-valued function whose domain <m>D</m> is a union of intervals. We say <m>f</m> is <term>continuous</term> if <m>f</m> is continuous at all points <m>c\in D</m>.
+        A function <m>f</m> is <term>continuous on an interval</term> <m>I</m> if it is continuous at all points <m>c\in I</m>. If the domain <m>D</m> of <m>f</m> is a union of intervals, and if <m>f</m> is continuous at all elements of <m>D</m>, then we say <m>f</m> is <term>continuous</term>.
       </p>
     </statement>
   </definition>
@@ -150,7 +150,7 @@
   <title>Continuous composition limit law</title>
   <statement>
     <p>
-      Let <m>f</m> be continuous at <m>c</m>. If <m>\lim_{x\to d}g(x)=c</m>, then
+      Let <m>f</m> be continuous at <m>c</m>. If <m>\lim\limits_{x\to d}g(x)=c</m>, then
       <me>
         \lim_{x\to d}f(g(x))=f\left( \lim_{x\to d}g(x)\right)=f(c)
       </me>.
@@ -161,7 +161,7 @@
   <title>Continuous composition</title>
   <statement>
     <p>
-      If <m>g</m> is continuous at <m>c</m> and <m>f</m> is continuous at <m>g(c)</m>, then <m>f\circ g</m> is continuous at <m>c</m>.
+      Given functions <m>g\colon I\rightarrow J</m> and <m>f\colon J\rightarrow Y</m>, where <m>I</m> and <m>J</m> are intervals. If <m>g</m> is continuous on <m>I</m> and <m>f</m> is continuous on <m>J</m>, then <m>f\circ g</m> is continuous on <m>I</m>. 
     </p>
   </statement>
 </corollary>
@@ -177,9 +177,8 @@
 </theorem>
 <remark>
 <p>
-The use of <q>between</q> here glosses over some distinct cases: <ie />, <m>f(a)\lt f(b)</m>, <m>f(a)\gt f(b)</m>, <m>f(a)=f(b)</m>. 
+The use of <q>between</q> here glosses over some distinct cases: <ie />, <m>f(a)\lt f(b)</m>, <m>f(a)\gt f(b)</m>, <m>f(a)=f(b)</m>.
 </p>
-</case>
 </remark>
 
 </section>

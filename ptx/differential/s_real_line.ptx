@@ -49,10 +49,18 @@
   <title> Intervals</title>
   <statement>
     <p>
-    A subset <m>I</m> of <m>\mathbb{R}</m> is called an <term>interval</term> if whenever <m>I</m> contains real numbers <m>a, b</m>, it contains all numbers between <m>a</m> and <m>b</m>. More precisely: given <m>a, b\in I</m> with <m>a \lt b</m>, if <m>a\lt c\lt b</m>, then <m>c\in I</m>.
+    An <term>interval</term> is a subset <m>I</m> of <m>\mathbb{R}</m> containing at least two elements and satisfying the following property: if <m>a,b\in I</m>, and if <m>a\lt c\lt b</m>, then <m>c\in I</m>. In other words, if <m>I</m> contains two given points, it contains all points between them.
   </p>
   </statement>
 </definition>
+    <remark xml:id="rm_intervals">
+  <statement>
+    <p>
+      The condition that <m>I</m> contains at least two elements is in place to rule out sets of the form <m>I=\{a\}</m> or <m>I=\{ \}</m> as intervals. A case can be made that these should also be considered intervals; and indeed, there are plenty of textbooks where these are included as <em>degenerate</em> intervals. We make this choice out of convenience, so that definitions and results later on are easier to state.
+    </p>
+  </statement>
+</remark>
+
 
 
 <definition xml:id="d_real_line_open_interval">
