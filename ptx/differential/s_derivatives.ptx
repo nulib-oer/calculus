@@ -49,4 +49,48 @@
 
     </statement>
   </definition>
+
+<!--Theorems-->
+
+<theorem xml:id="th_constant_derivative_rule">
+  <title>Derivatives of constant functions</title>
+  <statement>
+    <p>
+      The derivative of a constant function is the zero function. More precisely, if <m>f(x)=c</m> for some fixed constant <m>c</m> and all <m>x</m> in the domain of <m>f</m>, then
+      <me>
+        f'(x)=0
+      </me>
+      for all <m>x</m>.
+    </p>
+  </statement>
+</theorem>
+
+<theorem xml:id="th_power_rule_integers">
+  <title>The power rule</title>
+  <statement>
+    <p>
+    For any positive integer <m>n</m>,
+    <me>
+      \frac{d}{dx}x^n=nx^{n-1}.
+    </me>
+    </p>
+  </statement>
+</theorem>
+
+<theorem xml:id="th_power_rule_reals">
+  <title>The power rule for real exponents</title>
+  <statement>
+    <p>
+    For any real number <m>r \neq 0</m>,
+    <me>
+      \frac{d}{dx}x^r=rx^{r-1}
+    </me>
+    for all <m>x</m> such that <m>x^r</m> and <m>x^{r-1}</m> are defined.
+
+    </p>
+  </statement>
+</theorem>
+
+
+
 </section>
