@@ -86,11 +86,65 @@
       \frac{d}{dx}x^r=rx^{r-1}
     </me>
     for all <m>x</m> such that <m>x^r</m> and <m>x^{r-1}</m> are defined.
-
     </p>
   </statement>
 </theorem>
 
+
+<theorem xml:id="th_constant_multiple_rule">
+  <title>The constant multiple rule</title>
+  <statement>
+    <p>
+    If <m>f</m> is a differentiable function of <m>x</m>, then for any constant <m>c</m> we have
+    <<me>
+      \frac{d}{dx}[c\cdot f(x)]=c \frac{d}{dx}f(x)
+    </me>
+    for all <m>x</m> in the domain of <m>f</m>.
+    </p>
+  </statement>
+</theorem>
+
+
+<theorem xml:id="th_sum_rule">
+  <title>The sum rule</title>
+  <statement>
+    <p>
+    If <m>f</m> and <m>g</m> are differentiable functions of <m>x</m>, then their sum <m>f+g</m> is a differentiable function of <m>x</m>, with
+    <me>
+      \frac{d}{dx}[f(x)+g(x)]=\frac{d}{dx}f(x)+\frac{d}{dx}g(x)
+    </me>
+    for all <m>x</m> in the domain of both <m>f</m> and <m>g</m>.
+    </p>
+  </statement>
+</theorem>
+
+
+<theorem xml:id="th_product_rule">
+  <title>The product rule</title>
+  <statement>
+    <p>
+    If <m>f</m> and <m>g</m> are differentiable functions of <m>x</m>, then their product <m>fg</m> is a differentiable function of <m>x</m>, with
+    <me>
+      \frac{d}{dx}[f(x)g(x)]=f(x)\frac{d}{dx}g(x)+g(x)\frac{d}{dx}f(x)
+    </me>
+    for all <m>x</m> in the domain of both <m>f</m> and <m>g</m>.
+    </p>
+  </statement>
+</theorem>
+
+
+<theorem xml:id="th_quotient_rule">
+  <title>The quotient rule</title>
+  <statement>
+    <p>
+    If <m>f</m> and <m>g</m> are differentiable functions of <m>x</m>, then the quotient <m>\frac{f}{g}</m> is a differentiable function of <m>x</m>, with
+    <me>
+      \frac{d}{dx}[\frac{f(x)}{g(x)}]=\frac{g(x)\frac{d}{dx}f(x)-f(x)\frac{d}{dx}g(x)}{g^2(x)}
+    </me>
+    for all <m>x</m> in the domain of both <m>f</m> and <m>g</m> such that <m>g(x)\neq 0</m>.     
+    </p>
+  </statement>
+</theorem>
 
 
 </section>
