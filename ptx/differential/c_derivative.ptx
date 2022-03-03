@@ -2,4 +2,5 @@
   <title>The derivative</title>
   <xi:include  href="./s_derivative_at_point.ptx"/>
   <xi:include  href="./s_derivatives.ptx"/>
+  <xi:include  href="./s_trig_functions.ptx"/>
 </chapter>

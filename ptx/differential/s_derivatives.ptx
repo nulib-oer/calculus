@@ -70,9 +70,9 @@
   <statement>
     <p>
     For any positive integer <m>n</m>,
-    <me>
+    <men xml:id="eq_derivative_power_rule_integers">
       \frac{d}{dx}x^n=nx^{n-1}.
-    </me>
+    </men>
     </p>
   </statement>
 </theorem>
@@ -82,9 +82,9 @@
   <statement>
     <p>
     For any real number <m>r \neq 0</m>,
-    <me>
+    <men xml:id="eq_derivative_power_rule_reals">
       \frac{d}{dx}x^r=rx^{r-1}
-    </me>
+    </men>
     for all <m>x</m> such that <m>x^r</m> and <m>x^{r-1}</m> are defined.
     </p>
   </statement>
@@ -92,14 +92,15 @@
 
 
 <theorem xml:id="th_constant_multiple_rule">
-  <title>The constant multiple rule</title>
+  <title>Scalar multiple rule</title>
   <statement>
     <p>
-    If <m>f</m> is a differentiable function of <m>x</m>, then for any constant <m>c</m> we have
-    <<me>
-      \frac{d}{dx}[c\cdot f(x)]=c \frac{d}{dx}f(x)
-    </me>
-    for all <m>x</m> in the domain of <m>f</m>.
+    If <m>f</m> is differentiable on the interval <m>I</m>, then so is <m>cf</m> for any <m>c\in\mathbb{R}</m>, and we have
+    <men xml:id="eq_derivative_scalar_multiple_rule">
+      \frac{d}{dx}(cf)=cf'
+    </men>.
+     <!-- If <m>f</m> is a differentiable function of <m>x</m>, then for any constant <m>c</m> we have
+    for all <m>x</m> in the domain of <m>f</m>. -->
     </p>
   </statement>
 </theorem>
@@ -109,11 +110,10 @@
   <title>The sum rule</title>
   <statement>
     <p>
-    If <m>f</m> and <m>g</m> are differentiable functions of <m>x</m>, then their sum <m>f+g</m> is a differentiable function of <m>x</m>, with
-    <me>
-      \frac{d}{dx}[f(x)+g(x)]=\frac{d}{dx}f(x)+\frac{d}{dx}g(x)
-    </me>
-    for all <m>x</m> in the domain of both <m>f</m> and <m>g</m>.
+    If <m>f</m> and <m>g</m> are differentiable on the interval <m>I</m>, then so is <m>f+g</m>, and we have
+    <men xml:id="eq_derivative_sum_rule">
+      \frac{d}{dx}(f+g)=f'+g'
+    </men>.
     </p>
   </statement>
 </theorem>
@@ -123,12 +123,11 @@
   <title>The product rule</title>
   <statement>
     <p>
-    If <m>f</m> and <m>g</m> are differentiable functions of <m>x</m>, then their product <m>fg</m> is a differentiable function of <m>x</m>, with
-    <me>
-      \frac{d}{dx}[f(x)g(x)]=f(x)\frac{d}{dx}g(x)+g(x)\frac{d}{dx}f(x)
-    </me>
-    for all <m>x</m> in the domain of both <m>f</m> and <m>g</m>.
-    </p>
+    If <m>f</m> and <m>g</m> are differentiable functions on the interval <m>I</m>, then so is their product <m>fg</m>, and we have
+    <men xml:id="eq_derivative_product_rule">
+      \frac{d}{dx}(fg)=f\cdot g'+f'\cdot g
+    </men>.
+  </p>
   </statement>
 </theorem>
 
@@ -137,11 +136,10 @@
   <title>The quotient rule</title>
   <statement>
     <p>
-    If <m>f</m> and <m>g</m> are differentiable functions of <m>x</m>, then the quotient <m>\frac{f}{g}</m> is a differentiable function of <m>x</m>, with
-    <me>
-      \frac{d}{dx}[\frac{f(x)}{g(x)}]=\frac{g(x)\frac{d}{dx}f(x)-f(x)\frac{d}{dx}g(x)}{g^2(x)}
-    </me>
-    for all <m>x</m> in the domain of both <m>f</m> and <m>g</m> such that <m>g(x)\neq 0</m>.     
+    If <m>f</m> and <m>g</m> are differentiable on the interval <m>I</m>, and <m>g(x)\ne 0</m> for all <m>x\in I</m>, then the quotient <m>f/g</m> is differentiable, and we have
+    <men xml:id="eq_derivative_quotient_rule">
+      \frac{d}{dx}\left(\frac{f}{g}\right)=\frac{f'\cdot g-f\cdot g'}{g^2}
+    </men>.
     </p>
   </statement>
 </theorem>
