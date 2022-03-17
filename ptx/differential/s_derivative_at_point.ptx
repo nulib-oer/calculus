@@ -73,18 +73,7 @@
   </statement>
 </theorem>
 
-<theorem xml:id="th_chain_rule">
-  <title>The Chain Rule</title>
-  <statement>
-    <p>
-    Let <m>f</m> and <m>g</m> be functions, and suppose <m>g</m> is differentiable at <m>c</m>, and <m>f</m> is differentiable at <m>g(c)</m>. Then the composition <m>f\circ g</m> is differentiable at <m>c</m>, with
-    <me>
-      (f \circ g)'(c)=f'(g(c))\cdot g'(c).
-    </me>
 
-    </p>
-  </statement>
-</theorem>
 
 
 </section>

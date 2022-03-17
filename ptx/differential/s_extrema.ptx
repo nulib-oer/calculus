@@ -30,7 +30,7 @@
         </p>
       </li>
       </ul>
-      We say <m>f</m> has an <term>extreme value</term> at <m>x_0\in X</m> if <m>f(x_0)</m> is a maximum or minimum value of <m>f</m> on <m>X</m>, local or otherwise. In such cases we call the point <m>(x_0, f(x_0))</m> on the graph of <m>f</m> an <term>extremum</term> of <m>f</m>. 
+      We say <m>f</m> has an <term>extreme value</term> at <m>x_0\in X</m> if <m>f(x_0)</m> is a maximum or minimum value of <m>f</m> on <m>X</m>, local or otherwise. In such cases we call the point <m>(x_0, f(x_0))</m> on the graph of <m>f</m> an <term>extremum</term> of <m>f</m>.
     </p>
   </statement>
 </definition>
@@ -43,3 +43,14 @@
   </statement>
 </definition>
 </section>
+
+<--! Theorems -->
+
+  <theorem xml:id="th_extreme_value_theorem">
+    <title>The Extreme Value Theorem</title>
+    <statement>
+      <p>
+      Let <m>f</m> be a continuous function on a closed interval <m>[a,b]</m>. Then <m>f</m> achieves both an absolute maximum value and an absolute minimum value on <m>[a,b]</m>.
+      </p>
+    </statement>
+  </theorem>
