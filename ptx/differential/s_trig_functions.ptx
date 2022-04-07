@@ -1,5 +1,28 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="s_trig_functions">
   <title>Trigonometric functions</title>
+  <theorem xml:id="th_sin_cos_derivatives">
+    <title>Derivatives of sine and cosine</title>
+    <statement>
+      <p>
+      The derivatives of the trigonometric functions sine and cosine are given by
+      <me>
+        \frac{d}{dx}\sin (x)=\cos(x) \ \text{ and } \ \frac{d}{dx}\cos (x)=-\sin (x).
+      </me>
+      </p>
+    </statement>
+  </theorem>
 
+  <theorem xml:id="th_trigonometric_derivatives">
+    <title>Derivatives of trigonometric functions</title>
+    <statement>
+      <p>
+      The derivatives of the six standard trigonometric functions are given by
+      \begin{align}
+      \frac{d}{dx} \sin (x) \amp =\cos(x) \amp \frac{d}{dx}\cos (x) \amp =-\sin(x) \\
+      \frac{d}{dx} \tan (x) \amp =\sec^2 (x) \amp \frac{d}{dx}\cot (x) \amp =-\csc (x) \\
+      \frac{d}{dx} \sec (x) \amp =\sec (x) \tan (x) \amp \frac{d}{dx}\csc (x)=-\csc (x) \cot (x).
+      </p>
+    </statement>
+  </theorem>
 
 </section>

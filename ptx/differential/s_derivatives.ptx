@@ -161,10 +161,11 @@
   <statement>
     <p>
     The derivatives of the six standard trigonometric functions are given by
-    \begin{align}
-    \frac{d}{dx} \sin (x) \amp =\cos(x) \amp \frac{d}{dx}\cos (x) \amp =-\sin(x) \\
-    \frac{d}{dx} \tan (x) \amp =\sec^2 (x) \amp \frac{d}{dx}\cot (x) \amp =-\csc (x) \\
-    \frac{d}{dx} \sec (x) \amp =\sec (x) \tan (x) \amp \frac{d}{dx}\csc (x)=-\csc (x) \cot (x).
+    <md>
+      <mrow> \frac{d}{dx} \sin (x) \amp =\cos(x) \amp \frac{d}{dx}\cos (x) \amp =-\sin(x) </mrow>
+      <mrow> \frac{d}{dx} \tan (x) \amp =\sec^2 (x) \amp \frac{d}{dx}\cot (x) \amp =-\csc (x) </mrow>
+      <mrow> \frac{d}{dx} \sec (x) \amp =\sec (x) \tan (x) \amp \frac{d}{dx}\csc (x)\amp =-\csc (x) \cot (x) </mrow>
+    </md>
     </p>
   </statement>
 </theorem>

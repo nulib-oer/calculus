@@ -34,23 +34,37 @@
     </p>
   </statement>
 </definition>
+    <remark xml:id="rm_editor_extrema">
+  <statement>
+    <p>
+      Definition problematic as defined for arbitrary <m>X</m> for local extrema. Alternative: for any open interval <m>U</m>, <m>f(x_0)\geq f(x)</m> for all <m>x\in U\cap X</m>?
+    </p>
+  </statement>
+</remark>
+
 <definition xml:id="d_critical_points">
   <title>Critical point</title>
   <statement>
     <p>
-
+      Let <m>f</m> be a real-valued function with domain <m>D</m>, and let <m>c</m> be an interior point of <m>D</m>.  We say <m>c</m> is a <term>critical point</term> of <m>f</m> if either <m>f'(c)=0</m> or <m>f</m> is not differentiable at <m>c</m>.
     </p>
   </statement>
 </definition>
+    <remark xml:id="rm_editor_critical_point">
+  <statement>
+    <p>
+      The old question: should <q>critical point</q> be reserved for the point <m>P=(x,y)</m> on the graph of <m>f</m> where <m>x</m> is critical. What about <q>critical input</q>?
+    </p>
+  </statement>
+</remark>
+
+
+<theorem xml:id="th_extreme_value_theorem">
+  <title>The Extreme Value Theorem</title>
+  <statement>
+    <p>
+    Let <m>f</m> be a continuous function on the closed interval <m>[a,b]</m>. Then <m>f</m> attains both a maximal and minimal value on <m>[a,b]</m>.
+    </p>
+  </statement>
+</theorem>
 </section>
-
-<--! Theorems -->
-
-  <theorem xml:id="th_extreme_value_theorem">
-    <title>The Extreme Value Theorem</title>
-    <statement>
-      <p>
-      Let <m>f</m> be a continuous function on a closed interval <m>[a,b]</m>. Then <m>f</m> achieves both an absolute maximum value and an absolute minimum value on <m>[a,b]</m>.
-      </p>
-    </statement>
-  </theorem>
