@@ -68,3 +68,99 @@
   </statement>
 </theorem>
 </section>
+
+<theorem xml:id="th_derivative_at_extrema">
+  <title>Derivatives at extrema</title>
+  <statement>
+    <p>
+    Let <m>f</m> be a continuous function on the closed interval <m>[a,b]</m>. If <m>c</m> is a value in <m>[a,b]</m> at which <m>f</m> attains a local minimum or maximum, then either <m>f'(c)=0</m> or <m>f'(c)</m> does not exist.
+    </p>
+  </statement>
+</theorem>
+</section>
+
+<theorem xml:id="th_rolles_theorem">
+  <title>Rolle's Theorem</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</theorem>
+</section>
+
+<theorem xml:id="th_mean_value_theorem">
+  <title>The Mean Value Theorem</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</theorem>
+</section>
+
+<theorem xml:id="th_zero_derivative_implies_constant">
+  <title>Functions with zero derivative are constant</title>
+  <statement>
+    <p>
+    If <m>f'=0</m> on <m>(a,b)</m>, then <m>f</m> is constant on <m>(a,b)</m>.
+    </p>
+  </statement>
+</theorem>
+</section>
+
+<theorem xml:id="th_same_derivative_differ_by_constant">
+  <title>Functions with identical derivatives differ by a constant</title>
+  <statement>
+    <p>
+    If <m>f'=g'</m> on <m>(a,b)</m>, then <m>f(x)=g(x)+C</m> on <m>(a,b)</m>.
+    </p>
+  </statement>
+</theorem>
+</section>
+
+<theorem xml:id="th_derivatives_of_increasing_decreasing_functions">
+  <title>Derivatives of increasing or decreasing functions</title>
+  <statement>
+    <p>
+    If <m>f'>0</m> on <m>(a,b)</m>, then <m>f</m> is increasing on <m>(a,b)</m>. If <m>f'<0</m> on <m>(a,b)</m>, then <m>f</m> is decreasing on <m>(a,b)</m>.
+    </p>
+  </statement>
+</theorem>
+</section>
+
+<theorem xml:id="th_first_derivative_test">
+  <title>The first derivative test</title>
+  <statement>
+    <p>
+    Let <m>f</m> be a continuous function on a closed interval <m>[a,b]</m>. Then <m>f</m> can only attain a local minimum or maximum at an endpoint of <m>[a,b]</m> or at a point <m>c \in (a,b)</m> for which <m>f'(c)=0</m>.
+    </p>
+  </statement>
+</theorem>
+</section>
+
+<theorem xml:id="th_derivatives_and_concavity">
+  <title>Derivatives and concavity</title>
+  <statement>
+    <p>
+    If <m>f''>0</m> on <m>(a,b)</m>, then <m>f</m> is concave up on <m>(a,b)</m>. If <m>f''<0</m> on <m>(a,b)</m>, then <m>f</m> is concave down on <m>(a,b)</m>.
+    </p>
+  </statement>
+</theorem>
+</section>
+
+<theorem xml:id="th_second_derivative_test">
+  <title>The second derivative test</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</theorem>
+</section>
+
+<theorem xml:id="th_derivatives_at_inflection_points">
+  <title>Derivatives at inflection points</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</theorem>
+</section>
