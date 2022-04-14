@@ -1,6 +1,13 @@
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="c_id">
-  <title>Chapter Title</title>
-  <xi:include  href="section.ptx"/>
-  <xi:include  href="section.ptx"/>
-  <xi:include  href="section.ptx"/>
+  <title>Integral calculus</title>
+  <xi:include  href="s_antiderivatives.ptx"/>
+  <xi:include  href="s_definite_integrals.ptx"/>
+  <xi:include  href="s_ftoc.ptx"/>
+  <xi:include  href="s_indefinite_integrals.ptx"/>
+  <xi:include  href="s_logarithms_and_exponential.ptx"/>
+  <xi:include  href="s_integration_techniques.ptx"/>
+  <xi:include  href="s_applications_of_integrals.ptx"/>
+
+
+
 </chapter>
