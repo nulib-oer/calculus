@@ -35,11 +35,11 @@
 
         </part>
 
-        <!-- <part>
+        <part>
             <title>Integral</title>
-                <xi:include href="./integral/chapter_file_name.ptx"/>
+                <xi:include href="./integral/c_integral.ptx"/>
 
-        </part> -->
+        </part>
 
         <backmatter>
             <appendix xml:id="appendix-defs">

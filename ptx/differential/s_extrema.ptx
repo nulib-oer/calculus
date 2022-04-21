@@ -46,7 +46,7 @@
   <title>Critical point</title>
   <statement>
     <p>
-      Let <m>f</m> be a real-valued function with domain <m>D</m>, and let <m>c</m> be an interior point of <m>D</m>.  We say <m>c</m> is a <term>critical point</term> of <m>f</m> if either <m>f'(c)=0</m> or <m>f</m> is not differentiable at <m>c</m>.
+      Let <m>f</m> be a real-valued function, and let <m>c</m> be an interior point of the domain of <m>f</m>.  We say <m>c</m> is a <term>critical point</term> of <m>f</m> if either <m>f'(c)=0</m> or <m>f</m> is not differentiable at <m>c</m>.
     </p>
   </statement>
 </definition>
@@ -73,8 +73,8 @@
   <title>Critical points and extrema</title>
   <statement>
     <p>
-    Let <m>f</m> be continuous on the open interval <m>I</m>. 
-    If  <m>f</m> attains an extreme value at the input <m>c\in I</m>, then <m>c</m> is a critical point of <m>f</m>. Using logical notation:
+    Let <m>f</m> be a real-valued function, and let <m>c</m> be an interior point of the domain of <m>f</m>.
+    If  <m>f</m> attains an extreme value at <m>c</m>, then <m>c</m> is a critical point of <m>f</m>. Using logical notation:
     <me>
       f(c) \text{ is an extreme value}\implies c \text{ is a critical point}
     </me>.
@@ -83,52 +83,103 @@
 </theorem>
 
 
-<theorem xml:id="th_rolles_theorem">
+<!-- <theorem xml:id="th_rolles_theorem">
   <title>Rolle's Theorem</title>
   <statement>
     <p>
     </p>
   </statement>
-</theorem>
+</theorem> -->
 
 
 <theorem xml:id="th_mean_value_theorem">
-  <title>The Mean Value Theorem</title>
+  <title>Mean Value Theorem</title>
   <statement>
     <p>
+      Let <m>f</m> be continuous on the closed interval <m>[a,b]</m> and differentiable on <m>(a,b)</m>. There is a point <m>c\in (a,b)</m> satisfying
+      <men xml:id="eq_mean_value">
+        f'(c)=\frac{f(b)-f(a)}{b-a}
+      </men>.
     </p>
   </statement>
 </theorem>
 
-
-<theorem xml:id="th_zero_derivative_implies_constant">
-  <title>Functions with zero derivative are constant</title>
+  <remark xml:id="rm_mean_value">
   <statement>
     <p>
-    If <m>f'=0</m> on <m>(a,b)</m>, then <m>f</m> is constant on <m>(a,b)</m>.
+     There may be more than one such <m>c</m>. Perhaps find a place to mention Rolle's theorem. Our idea was to lead into statement of MVT by setting up the Rolle's theorem case.
+    </p>
+  </statement>
+</remark>
+
+
+<theorem xml:id="th__zeroderivative_constant">
+  <title>Derivative characterization of constant functions</title>
+  <statement>
+    <p>
+    Let <m>f</m> be differentiable on the open interval <m>(a,b)</m>. The following are equivalent.
+    <ol>
+      <li>
+        <p>
+          <m>f</m> is constant on <m>(a,b)</m>: <ie />, there exists a <m>c</m> such that <m>f(x)=c</m> for all <m>x\in (a,b)</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>f'(x)=0</m> for all <m>x\in (a,b)</m>.
+        </p>
+      </li>
+    </ol>
+
     </p>
   </statement>
 </theorem>
 
-
-<theorem xml:id="th_same_derivative_differ_by_constant">
-  <title>Functions with identical derivatives differ by a constant</title>
+<corollary xml:id="cor_zeroderivative_constant">
+  <title>Functions with identical derivative</title>
   <statement>
     <p>
-    If <m>f'=g'</m> on <m>(a,b)</m>, then <m>f(x)=g(x)+C</m> on <m>(a,b)</m>.
+      If <m>f'(x)=g'(x)</m> for all <m>x\in (a,b)</m>, then there is a constant <m>C</m> such that
+
+      <me>
+      f(x)=g(x)+C
+      </me> for all <m>x\in (a,b)</m>.
+    </p>
+  </statement>
+</corollary>
+
+
+<theorem xml:id="th_derivative_increasing_decreasing">
+  <title>Derivative characterization of monotonicity</title>
+  <statement>
+    <p>
+    Let <m>f</m> be differentiable on <m>(a,b)</m>.
+    <ol>
+      <li>
+        <p>
+          If <m>f'(x)\gt 0</m> for all <m>x\in (a,b)</m>, then <m>f</m> is increasing on <m>(a,b)</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          If <m>f'(x)\lt 0</m> for all <m>x\in (a,b)</m>, then <m>f</m> is decreasing on <m>(a,b)</m>.
+        </p>
+      </li>
+    </ol>
     </p>
   </statement>
 </theorem>
-
-
-<theorem xml:id="th_derivatives_of_increasing_decreasing_functions">
-  <title>Derivatives of increasing or decreasing functions</title>
+    <remark xml:id="rm_derivative_increasing_decreasing">
   <statement>
     <p>
-    If <m>f'\gt 0</m> on <m>(a,b)</m>, then <m>f</m> is increasing on <m>(a,b)</m>. If <m>f'\lt 0</m> on <m>(a,b)</m>, then <m>f</m> is decreasing on <m>(a,b)</m>.
+      Add some logical shortand? If so, how short do we get?
+      <me>
+        f'\gt 0\implies f \text{ increasing}?
+      </me>
+
     </p>
   </statement>
-</theorem>
+</remark>
 
 
 <theorem xml:id="th_first_derivative_test">
