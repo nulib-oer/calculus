@@ -1,0 +1,44 @@
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="s_approximation_of_areas_under_curves">
+  <title>Approximating Areas Beneath Curves</title>
+
+
+
+<!--Definitions-->
+
+<definition xml:id="d_upper_and_lower_sums">
+  <title>Upper and lower sums</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="d_partition">
+  <title>Partition of an interval</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="d_riemann_sum">
+  <title>Riemann Sums</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="d_sigma_notation">
+  <title>Sigma notation</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</definition>
+
+
+</section>

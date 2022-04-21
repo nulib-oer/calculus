@@ -1,4 +1,40 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="s_ftoc">
   <title>The Fundamental Theorem of Calculus</title>
 
+<!--Definitions-->
+
+
+
+
+
+
+<!--Theorems-->
+
+<theorem xml:id="th_mean_value_theorem_integrals">
+  <title>The mean value theorem for integrals</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</theorem>
+
+
+<theorem xml:id="th_ftoc1">
+  <title>The fundamental theorem of calculus, part 1</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</theorem>
+
+
+<theorem xml:id="th_ftoc2">
+  <title>The fundamental theorem of calculus, part 2</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</theorem>
+
+
 </section>

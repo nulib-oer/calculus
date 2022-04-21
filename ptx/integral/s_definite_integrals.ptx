@@ -1,4 +1,57 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="s_definite_integrals">
   <title>Definite Integrals</title>
 
+
+
+
+<!--Definitions-->
+
+<definition xml:id="d_definite_integral">
+  <title>The definite integral</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="d_integrable_function">
+  <title>Integrable functions</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="d_reversing_limits_of_integration">
+  <title>Reversing limits of integration</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</definition>
+
+
+
+
+<!--Theorems-->
+
+<theorem xml:id="th_continuous_on_closed_interval_integrable">
+  <title>A continuous function on a closed interval is integrable</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</theorem>
+
+
+<theorem xml:id="th_properties_of_the_definite_integral">
+  <title>Properties of the definite integral</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</theorem>
+
 </section>
