@@ -134,4 +134,34 @@ As with sets and tuples, we are obliged to specify what we mean for two function
       </p>
     </statement>
   </definition>
+
+  <definition xml:id="d_increasing_decreasing_functions">
+    <title>Increasing and decreasing functions</title>
+    <statement>
+      <p>
+        Let <m>f</m> be a real-valued function defined on an interval <m>I</m>.
+        <ul>
+          <li>
+            <p>
+            We say that <m>f</m> is <term>increasing</term> on <m>I</m> if, for all <m>a,b \in I</m>  with <m>a \lt b</m>, we have <m>f(a) \lt f(b)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+            We say that <m>f</m> is <term>nondecreasing</term> on <m>I</m> if, for all <m>a,b \in I</m>  with <m>a \lt b</m>, we have <m>f(a) \leq f(b)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+            We say that <m>f</m> is <term>decreasing</term> on <m>I</m> if, for all <m>a,b \in I</m> with <m>a \lt b</m>, we have <m>f(a) \gt f(b)</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+            We say that <m>f</m> is <term>nonincreasing</term> on <m>I</m> if, for all <m>a,b \in I</m>  with <m>a \lt b</m>, we have <m>f(a) \geq f(b)</m>. 
+            </p>
+          </li>
+      </p>
+    </statement>
+  </definition>
 </section>
