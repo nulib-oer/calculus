@@ -46,6 +46,10 @@
                 <title>Definitions</title>
                 <list-of elements="definition" divisions="section" />
             </appendix>
+            <appendix xml:id="appendix-theory">
+                <title>Theorems</title>
+                <list-of elements="theorem corollary" divisions="section" />
+            </appendix>
             <!-- <appendix xml:id="appendix-thms">
                 <title>Theorems</title>
                 <list-of elements="theorem" divisions="section" />

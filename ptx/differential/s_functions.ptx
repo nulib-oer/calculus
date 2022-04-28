@@ -143,24 +143,20 @@ As with sets and tuples, we are obliged to specify what we mean for two function
         <ul>
           <li>
             <p>
-            We say that <m>f</m> is <term>increasing</term> on <m>I</m> if, for all <m>a,b \in I</m>  with <m>a \lt b</m>, we have <m>f(a) \lt f(b)</m>.
+            <m>f</m> is <term>increasing</term> on <m>I</m> if <m>a \lt b</m> implies <m>f(a)\lt f(b)</m>, for all <m>a,b\in I</m>.
             </p>
           </li>
           <li>
             <p>
-            We say that <m>f</m> is <term>nondecreasing</term> on <m>I</m> if, for all <m>a,b \in I</m>  with <m>a \lt b</m>, we have <m>f(a) \leq f(b)</m>.
+            <m>f</m> is <term>decreasing</term> on <m>I</m> if <m>a\lt b</m> implies <m>f(a)\gt f(b)</m> for all <m>a,b \in I</m>.
             </p>
           </li>
           <li>
             <p>
-            We say that <m>f</m> is <term>decreasing</term> on <m>I</m> if, for all <m>a,b \in I</m> with <m>a \lt b</m>, we have <m>f(a) \gt f(b)</m>.
+            <m>f</m> is <term>nonincreasing</term> on <m>I</m> if <m>a \lt b</m> implies <m>f(a)\geq f(b)</m> for all <m>a,b\in I</m>. Similarly, <m>f</m> is <term>nondecreasing</term> on <m>I</m> if <m>a \lt b</m> implies <m>f(a)\leq f(b)</m> for all <m>a,b\in I</m>.
             </p>
           </li>
-          <li>
-            <p>
-            We say that <m>f</m> is <term>nonincreasing</term> on <m>I</m> if, for all <m>a,b \in I</m>  with <m>a \lt b</m>, we have <m>f(a) \geq f(b)</m>. 
-            </p>
-          </li>
+        </ul>
       </p>
     </statement>
   </definition>

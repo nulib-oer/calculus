@@ -150,19 +150,19 @@
 
 
 <theorem xml:id="th_derivative_increasing_decreasing">
-  <title>Derivative characterization of monotonicity</title>
+  <title>Derivative characterization of increasing/decreasing</title>
   <statement>
     <p>
-    Let <m>f</m> be differentiable on <m>(a,b)</m>.
+    Let <m>f</m> be differentiable on the open interval <m>I</m>.
     <ol>
       <li>
         <p>
-          If <m>f'(x)\gt 0</m> for all <m>x\in (a,b)</m>, then <m>f</m> is increasing on <m>(a,b)</m>.
+          If <m>f'(x)\gt 0</m> for all <m>x\in I</m>, then <m>f</m> is increasing on <m>I</m>.
         </p>
       </li>
       <li>
         <p>
-          If <m>f'(x)\lt 0</m> for all <m>x\in (a,b)</m>, then <m>f</m> is decreasing on <m>(a,b)</m>.
+          If <m>f'(x)\lt 0</m> for all <m>x\in I</m>, then <m>f</m> is decreasing on <m>I</m>.
         </p>
       </li>
     </ol>
@@ -172,7 +172,7 @@
     <remark xml:id="rm_derivative_increasing_decreasing">
   <statement>
     <p>
-      Add some logical shortand? If so, how short do we get?
+      Add some logical shorthand? If so, how short do we get?
       <me>
         f'\gt 0\implies f \text{ increasing}?
       </me>
@@ -190,12 +190,45 @@
     </p>
   </statement>
 </theorem>
-
+<definition xml:id="d_concavity">
+  <title>Concavity</title>
+  <statement>
+    <p>
+      Let <m>f</m> be defined on the interval <m>I</m>.
+      <ul>
+        <li>
+          <title>Concave up</title>
+          <p>
+            <m>f</m> is <term>concave up</term> (or has <term>upward concavity</term>) on <m>I</m> if for all <m>a,b\in I</m> with <m>a\lt b</m>, the secant line connecting <m>P=(a,f(a))</m> and <m>Q=(b,f(b))</m> lies strictly above the graph of <m>f</m> for all <m>a\lt x\lt b</m>.
+          </p>
+        </li>
+        <li>
+          <title>Concave down</title>
+          <p>
+            <m>f</m> is <term>concave down</term> (or has <term>downward concavity</term>) on <m>I</m> if for all <m>a,b\in I</m> with <m>a\lt b</m>, the secant line connecting <m>P=(a,f(a))</m> and <m>Q=(b,f(b))</m> lies strictly below the graph of <m>f</m> for all <m>a\lt x\lt b</m>.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </statement>
+</definition>
 <theorem xml:id="th_derivatives_and_concavity">
   <title>Derivatives and concavity</title>
   <statement>
     <p>
-    If <m>f''\gt 0</m> on <m>(a,b)</m>, then <m>f</m> is concave up on <m>(a,b)</m>. If <m>f''\lt 0</m> on <m>(a,b)</m>, then <m>f</m> is concave down on <m>(a,b)</m>.
+      Let <m>f</m> be twice differentiable on the open interval <m>I</m>.
+      <ol>
+        <li>
+          <p>
+            If <m>f''(x)\gt 0</m> for all <m>x\in I</m>, then <m>f</m> is concave up on <m>I</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            If <m>f''(x)\lt 0</m> for all <m>x\in I</m>, then <m>f</m> is concave down on <m>I</m>.
+          </p>
+        </li>
+      </ol>
     </p>
   </statement>
 </theorem>
