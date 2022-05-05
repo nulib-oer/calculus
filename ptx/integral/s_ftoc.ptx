@@ -37,4 +37,14 @@
 </theorem>
 
 
+<theorem xml:id="th_area_between_curves">
+  <title>Areas between curves</title>
+  <statement>
+    <p>
+    <m>\int (f(x)-g(x))</m>
+    </p>
+  </statement>
+</theorem>
+
+
 </section>

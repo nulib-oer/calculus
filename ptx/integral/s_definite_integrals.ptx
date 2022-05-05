@@ -54,4 +54,14 @@
   </statement>
 </theorem>
 
+
+<theorem xml:id="th_definite_integrals_and_riemann_sums">
+  <title>Definite integrals are limits of riemann sums</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</theorem>
+
+
 </section>

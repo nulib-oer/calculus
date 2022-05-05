@@ -41,4 +41,26 @@
 </definition>
 
 
+<!--Theorems-->
+
+
+<theorem xml:id="th_properties_of_sigma_notation">
+  <title>Properties of sigma notation</title>
+  <statement>
+    <p>
+    scalar distribution, splitting sums, reindexing, etc.
+    </p>
+  </statement>
+</theorem>
+
+
+<theorem xml:id="sums_of_powers_of_integers">
+  <title>Sums of powers of integers</title>
+  <statement>
+    <p>
+    sigma i, sigma i squared, sigma i cubed
+    </p>
+  </statement>
+</theorem>
+
 </section>

@@ -1,4 +1,44 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="s_indefinite_integrals">
   <title>Indefinite Integrals</title>
 
+  <definition xml:id="d_antiderivative">
+    <title>antiderivatives</title>
+    <statement>
+      <p>
+      </p>
+    </statement>
+  </definition>
+
+
+  <definition xml:id="d_indefinite_integral">
+    <title>Indefinite integrals</title>
+    <statement>
+      <p>
+      </p>
+    </statement>
+  </definition>
+
+
+
+  <!--Theorems-->
+
+
+  <theorem xml:id="th_antiderivatives_differ_by_constant">
+    <title>Antiderivatives differ by a constant</title>
+    <statement>
+      <p>
+      </p>
+    </statement>
+  </theorem>
+
+  <theorem xml:id="th_antiderivatives_of_common_functions">
+    <title>Antiderivatives of common functions</title>
+    <statement>
+      <p>
+      </p>
+    </statement>
+  </theorem>
+
+
+
 </section>

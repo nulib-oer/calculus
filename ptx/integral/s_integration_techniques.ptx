@@ -1,4 +1,52 @@
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="s_integration_techniques">
   <title>Integration Techniques</title>
 
+
+  <!--Theorems-->
+
+
+  <theorem xml:id="th_substitution_method">
+    <title>substitution method</title>
+    <statement>
+      <p>
+      </p>
+    </statement>
+  </theorem>
+
+
+  <theorem xml:id="th_integration_by_parts">
+    <title>Integration by parts</title>
+    <statement>
+      <p>
+      </p>
+    </statement>
+  </theorem>
+
+
+  <theorem xml:id="th_integration_of_powers_of_trig_functions">
+    <title>Integrating powers of trigonometric functions</title>
+    <statement>
+      <p>
+      </p>
+    </statement>
+  </theorem>
+
+
+  <theorem xml:id="th_trigonometric_substitution">
+    <title>Trigonometric substitution</title>
+    <statement>
+      <p>
+      </p>
+    </statement>
+  </theorem>
+
+
+  <theorem xml:id="th_partial_fraction_decomposition">
+    <title>Partial fraction decomposition</title>
+    <statement>
+      <p>
+      </p>
+    </statement>
+  </theorem>
+
 </section>

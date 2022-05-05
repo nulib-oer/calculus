@@ -2,8 +2,8 @@
   <title>Integral calculus</title>
   <xi:include  href="s_approximation_of_area_under_curves.ptx"/>
   <xi:include  href="s_definite_integrals.ptx"/>
-  <xi:include  href="s_ftoc.ptx"/>
   <xi:include  href="s_indefinite_integrals.ptx"/>
+  <xi:include  href="s_ftoc.ptx"/>
   <xi:include  href="s_logarithms_and_exponential.ptx"/>
   <xi:include  href="s_integration_techniques.ptx"/>
   <xi:include  href="s_applications_of_integrals.ptx"/>
