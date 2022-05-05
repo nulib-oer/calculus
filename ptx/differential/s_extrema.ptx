@@ -59,6 +59,43 @@
 </remark>
 
 
+
+<definition xml:id="d_concavity">
+  <title>Concavity</title>
+  <statement>
+    <p>
+      Let <m>f</m> be defined on the interval <m>I</m>.
+      <ul>
+        <li>
+          <title>Concave up</title>
+          <p>
+            <m>f</m> is <term>concave up</term> (or has <term>upward concavity</term>) on <m>I</m> if for all <m>a,b\in I</m> with <m>a\lt b</m>, the secant line connecting <m>P=(a,f(a))</m> and <m>Q=(b,f(b))</m> lies strictly above the graph of <m>f</m> for all <m>a\lt x\lt b</m>.
+          </p>
+        </li>
+        <li>
+          <title>Concave down</title>
+          <p>
+            <m>f</m> is <term>concave down</term> (or has <term>downward concavity</term>) on <m>I</m> if for all <m>a,b\in I</m> with <m>a\lt b</m>, the secant line connecting <m>P=(a,f(a))</m> and <m>Q=(b,f(b))</m> lies strictly below the graph of <m>f</m> for all <m>a\lt x\lt b</m>.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </statement>
+</definition>
+
+
+<definition xml:id="d_inflection_point">
+  <title>Inflection_point</title>
+  <statement>
+    <p>
+    Let <m>f</m> be a function which is continuos on an open interval <m>I</m>. We call a point <m>c \in I</m> an <term> inflection point </term> of <m>f</m> if the concavity of <m>f</m> changes at <m>c</m>. More precisely, <m>c</m> is an inflection point if there exist open intervals <m>(a,c)</m> and <m>(c,b)</m> in <m>I</m> such that <m>f</m> is concave up on <m>(a,c)</m> and concave down on <m>(c,b)</m>, or vice-versa.
+    </p>
+  </statement>
+</definition>
+
+<!--Theorems-->
+
+
 <theorem xml:id="th_extreme_value_theorem">
   <title>The Extreme Value Theorem</title>
   <statement>
@@ -190,28 +227,9 @@
     </p>
   </statement>
 </theorem>
-<definition xml:id="d_concavity">
-  <title>Concavity</title>
-  <statement>
-    <p>
-      Let <m>f</m> be defined on the interval <m>I</m>.
-      <ul>
-        <li>
-          <title>Concave up</title>
-          <p>
-            <m>f</m> is <term>concave up</term> (or has <term>upward concavity</term>) on <m>I</m> if for all <m>a,b\in I</m> with <m>a\lt b</m>, the secant line connecting <m>P=(a,f(a))</m> and <m>Q=(b,f(b))</m> lies strictly above the graph of <m>f</m> for all <m>a\lt x\lt b</m>.
-          </p>
-        </li>
-        <li>
-          <title>Concave down</title>
-          <p>
-            <m>f</m> is <term>concave down</term> (or has <term>downward concavity</term>) on <m>I</m> if for all <m>a,b\in I</m> with <m>a\lt b</m>, the secant line connecting <m>P=(a,f(a))</m> and <m>Q=(b,f(b))</m> lies strictly below the graph of <m>f</m> for all <m>a\lt x\lt b</m>.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </statement>
-</definition>
+
+
+
 <theorem xml:id="th_derivatives_and_concavity">
   <title>Derivatives and concavity</title>
   <statement>
@@ -235,9 +253,27 @@
 
 
 <theorem xml:id="th_second_derivative_test">
-  <title>The second derivative test</title>
+  <title>second derivative test</title>
   <statement>
     <p>
+    Let <m>f</m> be twice differentiable on the open interval <m>I</m>, and let <m>c \in I</m>. The following hold:
+    <ol>
+      <li>
+        <p>
+        If <m>f'(c)=0</m> and <m>f''(c)\gt 0</m>, then <m>f</m> achieves a local minimum at <m>c</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+        If <m>f'(c)=0</m> and <m>f''(c) \lt 0</m>, then <m>f</m> achieves a local maximum at <m>c</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+        If <m>f'(c)=0</m> and <m>f''(c)=0</m>, then no conclusion about extrema at <m>c</m> can be made; there may be a local minimum, a local maximum, or neither at <m>c</m>.
+        </p>
+      </li>
+    </ol>
     </p>
   </statement>
 </theorem>
@@ -247,6 +283,7 @@
   <title>Derivatives at inflection points</title>
   <statement>
     <p>
+    Let <m>f</m> be a function which is continuous on an open interval <m>I</m>. If <m>c \in I</m> is an inflection point of <m>f</m>, then either <m>f''(c)=0</m> or <m>f''(c)</m> does not exist.
     </p>
   </statement>
 </theorem>
