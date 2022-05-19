@@ -84,6 +84,8 @@
 </definition>
 
 
+
+
 <definition xml:id="d_inflection_point">
   <title>Inflection_point</title>
   <statement>
@@ -220,7 +222,7 @@
 
 
 <theorem xml:id="th_first_derivative_test">
-  <title>The first derivative test</title>
+  <title>First derivative test</title>
   <statement>
     <p>
     Let <m>f</m> be a continuous function on a closed interval <m>[a,b]</m>. Then <m>f</m> can only attain a local minimum or maximum at an endpoint of <m>[a,b]</m> or at a point <m>c \in (a,b)</m> for which <m>f'(c)=0</m>.
@@ -253,7 +255,7 @@
 
 
 <theorem xml:id="th_second_derivative_test">
-  <title>second derivative test</title>
+  <title>Second derivative test</title>
   <statement>
     <p>
     Let <m>f</m> be twice differentiable on the open interval <m>I</m>, and let <m>c \in I</m>. The following hold:
