@@ -20,7 +20,7 @@
     <me>
       \displaystyle\int_a^b f(x) \ dx
     </me>.
-    When describing the definite integral above, we refer to <m>a</m> and <m>b</m> as the <term> lower bound of integration </term> and <term> upper bound of integration</term>, respectively. We call the function <m>f(x)</m> the <term> integrand </term>, and call <m>x</m> the <term> variable of integration </term>.    
+    When describing the definite integral above, we refer to <m>a</m> and <m>b</m> as the <term> lower bound of integration </term> and <term> upper bound of integration</term>, respectively. We call the function <m>f(x)</m> the <term> integrand </term>, and call <m>x</m> the <term> variable of integration </term>.
     </p>
   </statement>
 </definition>
@@ -29,24 +29,28 @@
   <title>Total signed area beneath a curve</title>
   <statement>
     <p>
+    Let <m>f</m> be a function which is integrable on a closed interval <m>[a,b]</m>. We define the <term> signed area under the curve <m>f(x)</m> on <m>[a,b]</m> </term> to be the definite integral
+    <me>
+      \displaystyle\int_a^b f(x) \ dx
+    </me>.
+    Intuitively, the signed area is obatined by taking the area of the region between the positive portion of the graph of <m>f</m> and the <m>x</m>-axis on <m>[a,b]</m> and subtracting the area of the region between the negative portion of the graph of <m>f</m> and the <m>x</m>-axis on <m>[a,b]</m>.
     </p>
   </statement>
 </definition>
 
 
-<definition xml:id="d_integrable_function">
-  <title>Integrable functions</title>
-  <statement>
-    <p>
-    </p>
-  </statement>
-</definition>
+
 
 
 <definition xml:id="d_reversing_limits_of_integration">
   <title>Reversing limits of integration</title>
   <statement>
     <p>
+    Let <m>f</m> be a function which is integrable on a closed interval <m>[a,b]</m>. We define
+    <me>
+      \displaystyle\int_b^a f(x) \ dx=-\displaystyle\int_a^b f(x) \ dx.
+    </me>
+    That is, switching the limits of integration of a definite integral denotes a value which is negative that of the original integral.
     </p>
   </statement>
 </definition>
@@ -57,9 +61,10 @@
 <!--Theorems-->
 
 <theorem xml:id="th_continuous_on_closed_interval_integrable">
-  <title>A continuous function on a closed interval is integrable</title>
+  <title>Continuous function on a closed interval is integrable</title>
   <statement>
     <p>
+      If <m>f</m> is a function which is continuous on a closed interval <m>[a,b]</m>, then <m>f</m> is integrable on <m>[a,b]</m>.
     </p>
   </statement>
 </theorem>
@@ -69,18 +74,39 @@
   <title>Properties of the definite integral</title>
   <statement>
     <p>
+      Let <m>f</m> and <m>g</m> be functions which are integrable on a closed interval which contains the values <m>a,b,</m> and <m>c</m>. The following properties hold:
+      <dl>
+        <li>
+          <title>Zero area</title>
+          <p>
+          <m>\displaystyle\int_a^a f(x) \ dx =0 </m>
+          </p>
+        </li>
+        <li>
+          <title>Addition/subtraction</title>
+          <p>
+            <m>\displaystyle\int_a^b f(x) \ dx \pm \displaystyle\int_a^b g(x) \ dx= \displaystyle\int_a^b (f(x) \pm g(x)) \ dx</m>
+          </p>
+        </li>
+        <li>
+          <title>Scalar product</title>
+          <p>
+            <m>k\,\displaystyle\int_a^b f(x) \ dx= \displaystyle\int_a^b k\, f(x) \ dx </m>, where <m>k\in \mathbb{R}</m> is any constant
+          </p>
+        </li>
+        <li>
+          <title>Addtivity</title>
+          <p>
+            <m>\displaystyle\int_a^b f(x) \ dx + \displaystyle\int_b^c f(x) \ dx = \displaystyle\int_a^c f(x) \ dx</m>
+          </p>
+        </li>
+      </dl>
     </p>
   </statement>
 </theorem>
 
 
-<theorem xml:id="th_definite_integrals_and_riemann_sums">
-  <title>Definite integrals are limits of riemann sums</title>
-  <statement>
-    <p>
-    </p>
-  </statement>
-</theorem>
+
 
 
 </section>
