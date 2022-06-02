@@ -6,8 +6,29 @@
 
 <!--Definitions-->
 
+<definition xml:id="d_limits_of_upper_lower_sums">
+  <title>Integrable functions</title>
+  <statement>
+    <p>
+    </p>
+  </statement>
+</definition>
+
 <definition xml:id="d_definite_integral">
   <title>The definite integral</title>
+  <statement>
+    <p>
+    Let <m>f</m> be a real-valued function defined on a closed interval <m>[a,b]</m>, and suppose the following limit exists:
+    <me>
+      I=\lim\limits_{n \to \infty}\sum\limits_{k=1}^n f\left\(a+k\frac{b-a}{n} \right\)\left\(\frac{b-a}{n} \right\)
+    </me>.
+
+    </p>
+  </statement>
+</definition>
+
+<definition xml:id="d_total_signed_area">
+  <title>Total signed area beneath a curve</title>
   <statement>
     <p>
     </p>
