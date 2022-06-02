@@ -20,7 +20,7 @@
     <p>
     Let <m>f</m> be a real-valued function defined on a closed interval <m>[a,b]</m>, and suppose the following limit exists:
     <me>
-      I=\lim\limits_{n \to \infty}\sum\limits_{k=1}^n f\left\(a+k\frac{b-a}{n} \right\)\left\(\frac{b-a}{n} \right\)
+      I=\lim\limits_{n \to \infty}\sum\limits_{k=1}^n f\left\( a+k\frac{b-a}{n} \right\)\left\( \frac{b-a}{n} \right\)
     </me>.
 
     </p>
