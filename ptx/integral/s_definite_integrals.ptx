@@ -91,7 +91,9 @@
         <li>
           <title>Scalar product</title>
           <p>
-            <m>k\,\displaystyle\int_a^b f(x) \ dx= \displaystyle\int_a^b k\, f(x) \ dx </m>, where <m>k\in \mathbb{R}</m> is any constant
+            <m>k\,\displaystyle\int_a^b f(x) \ dx= \displaystyle\int_a^b k\, f(x) \ dx </m>,
+            \\
+            where <m>k\in \mathbb{R}</m> is any constant
           </p>
         </li>
         <li>
