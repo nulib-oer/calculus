@@ -6,23 +6,21 @@
 
 <!--Definitions-->
 
-<definition xml:id="d_limits_of_upper_lower_sums">
-  <title>Integrable functions</title>
-  <statement>
-    <p>
-    </p>
-  </statement>
-</definition>
+
 
 <definition xml:id="d_definite_integral">
   <title>The definite integral</title>
   <statement>
     <p>
-    Let <m>f</m> be a real-valued function defined on a closed interval <m>[a,b]</m>, and suppose the following limit exists:
+    Let <m>f</m> be a real-valued function defined on a closed interval <m>[a,b]</m>. If the limit
     <me>
-      I=\lim\limits_{n \to \infty}\sum\limits_{k=1}^n f\left( a+k\frac{b-a}{n} \right) \left( \frac{b-a}{n} \right)
+      \lim\limits_{n \to \infty}\sum\limits_{k=1}^n f\left( a+k\frac{b-a}{n} \right) \left( \frac{b-a}{n} \right)
+    </me>
+    exists, we say that <m>f</m> is <term> integrable </term> on <m>[a,b]</m>, and we call the above limit the <term>definite integral of <m>f</m> on <m>[a,b]</m> </term>. We denote the definite integral by
+    <me>
+      \displaystyle\int_a^b f(x) \ dx
     </me>.
-
+    When describing the definite integral above, we refer to <m>a</m> and <m>b</m> as the <term> lower bound of integration </term> and <term> upper bound of integration</term>, respectively. We call the function <m>f(x)</m> the <term> integrand </term>, and call <m>x</m> the <term> variable of integration </term>.    
     </p>
   </statement>
 </definition>
