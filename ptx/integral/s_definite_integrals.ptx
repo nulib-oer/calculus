@@ -74,7 +74,7 @@
   <title>Properties of the definite integral</title>
   <statement>
     <p>
-      Let <m>f</m> and <m>g</m> be functions which are integrable on a closed interval which contains the values <m>a,b,</m> and <m>c</m>. The following properties hold:
+      Let <m>f</m> and <m>g</m> be functions which are integrable on a closed interval which contains the values <m>a,b,</m> and <m>c</m>, and let <m>k\in \mathbb{R}</m>. The following properties hold:
       <dl>
         <li>
           <title>Zero area</title>
@@ -91,9 +91,7 @@
         <li>
           <title>Scalar product</title>
           <p>
-            <m>k\,\displaystyle\int_a^b f(x) \ dx= \displaystyle\int_a^b k\, f(x) \ dx </m>,
-            \\
-            where <m>k\in \mathbb{R}</m> is any constant
+            <m>k\,\displaystyle\int_a^b f(x) \ dx= \displaystyle\int_a^b k\, f(x) \ dx </m>
           </p>
         </li>
         <li>
